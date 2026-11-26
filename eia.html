@@ -1,0 +1,2748 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OIEEA - NEMA Compliance & ESG Advisory, Nairobi</title>
+<meta name="description" content="NEMA-registered Associate Expert providing environmental impact assessment, environmental audit, ESG readiness and technical verification for Kenyan manufacturers. One engagement, two usable outputs.">
+<meta property="og:title" content="OIEEA - NEMA Compliance & ESG Advisory">
+<meta property="og:description" content="NEMA compliance and ESG disclosure, verified by a registered expert. Nairobi, Kenya.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='4' fill='%230e2a47'/><rect x='9' y='9' width='14' height='14' fill='%2314b8a6'/></svg>">
+
+<style>
+/* ============================================================
+   OIEEA - Classic Sans-serif system + motion
+   ============================================================ */
+
+:root {
+  --navy: #0e2a47;
+  --navy-deep: #081b2e;
+  --teal: #0f766e;
+  --teal-bright: #14b8a6;
+  --sand: #f7f5f0;
+  --paper: #ffffff;
+  --ink: #1a2733;
+  --muted: #57697a;
+  --line: #e4e1d8;
+  --line-strong: #cfcabd;
+  --gold: #a67c2e;
+  --radius: 6px;
+  --shadow: 0 1px 2px rgba(10,26,42,.06), 0 10px 30px rgba(10,26,42,.07);
+  --shadow-lift: 0 4px 12px rgba(10,26,42,.08), 0 24px 60px rgba(10,26,42,.14);
+  --font-sans: "Helvetica Neue", Helvetica, Arial, "Liberation Sans", "Nimbus Sans", sans-serif;
+  --max: 1140px;
+  --ease: cubic-bezier(.22,.61,.36,1);
+  --ease-out: cubic-bezier(.16,1,.3,1);
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  font-size: 17px;
+  line-height: 1.62;
+  color: var(--ink);
+  background: var(--sand);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  letter-spacing: -0.005em;
+}
+
+img { max-width: 100%; display: block; }
+a { color: var(--teal); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+h1, h2, h3, h4 {
+  font-family: var(--font-sans);
+  line-height: 1.14;
+  color: var(--navy);
+  margin: 0 0 .5em;
+  letter-spacing: -0.022em;
+  font-weight: 700;
+}
+h1 { font-size: clamp(2rem, 4.6vw, 3.15rem); }
+h2 { font-size: clamp(1.55rem, 2.9vw, 2.25rem); }
+h3 { font-size: 1.22rem; font-weight: 600; letter-spacing: -0.015em; }
+h4 { font-size: 1rem; font-weight: 600; letter-spacing: 0.01em; }
+
+p { margin: 0 0 1em; }
+
+.skip-link {
+  position: absolute; left: -999px; top: 0; z-index: 200;
+  background: var(--navy); color: #fff; padding: .7em 1.2em;
+}
+.skip-link:focus { left: 1rem; top: 1rem; }
+
+/* ---------- Motion primitives ---------- */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+@keyframes pulseRing {
+  0%   { transform: scale(.85); opacity: .7; }
+  100% { transform: scale(1.8);  opacity: 0; }
+}
+@keyframes shimmer {
+  0%   { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+/* Directional page transitions */
+@keyframes pageInFromRight {
+  from { opacity: 0; transform: translateX(28px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+@keyframes pageInFromLeft {
+  from { opacity: 0; transform: translateX(-28px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+@keyframes pageOutLeft {
+  from { opacity: 1; transform: translateX(0); }
+  to   { opacity: 0; transform: translateX(-28px); }
+}
+@keyframes pageOutRight {
+  from { opacity: 1; transform: translateX(0); }
+  to   { opacity: 0; transform: translateX(28px); }
+}
+
+/* ---------- Scroll reveal ---------- */
+.reveal {
+  opacity: 0;
+  transform: translateY(26px);
+  transition: opacity .65s var(--ease-out), transform .65s var(--ease-out);
+  will-change: opacity, transform;
+}
+.reveal.in-view { opacity: 1; transform: translateY(0); }
+.reveal[data-delay="1"] { transition-delay: .07s; }
+.reveal[data-delay="2"] { transition-delay: .14s; }
+.reveal[data-delay="3"] { transition-delay: .21s; }
+.reveal[data-delay="4"] { transition-delay: .28s; }
+
+/* ---------- Layout ---------- */
+.wrap { width: 100%; max-width: var(--max); margin: 0 auto; padding: 0 24px; }
+.section { padding: 84px 0; }
+.section.tight { padding: 56px 0; }
+.section.alt { background: var(--paper); }
+.section.ink { background: var(--navy); color: #dbe4ee; }
+.section.ink h2, .section.ink h3 { color: #fff; }
+
+.eyebrow {
+  font-family: var(--font-sans);
+  font-size: .76rem; font-weight: 700; letter-spacing: .14em;
+  text-transform: uppercase; color: var(--teal);
+  margin-bottom: 1rem; display: block;
+}
+.lede { font-size: 1.15rem; color: var(--muted); max-width: 48ch; }
+.section-head { max-width: 720px; margin-bottom: 48px; }
+.section-head p { color: var(--muted); }
+
+/* ---------- Buttons ---------- */
+.btn {
+  display: inline-flex; align-items: center; gap: .5em;
+  font-family: var(--font-sans); font-size: .94rem; font-weight: 600;
+  padding: .78em 1.5em; border-radius: var(--radius);
+  border: 1.5px solid transparent; cursor: pointer;
+  transition: background .15s, color .15s, border-color .15s, transform .2s var(--ease), box-shadow .2s var(--ease);
+  text-decoration: none;
+  position: relative; overflow: hidden;
+  letter-spacing: -0.005em;
+}
+.btn::after {
+  content: ""; position: absolute; inset: 0;
+  background: linear-gradient(100deg, transparent 20%, rgba(255,255,255,.35) 50%, transparent 80%);
+  background-size: 200% 100%;
+  opacity: 0; transition: opacity .3s;
+  pointer-events: none;
+}
+.btn:hover { text-decoration: none; transform: translateY(-2px); }
+.btn-primary:hover { background: #0b5f59; box-shadow: 0 8px 24px rgba(15,118,110,.3); }
+.btn-primary:hover::after { opacity: 1; animation: shimmer 1s var(--ease); }
+.btn-primary { background: var(--teal); color: #fff; }
+.btn-outline { background: transparent; color: var(--navy); border-color: var(--line-strong); }
+.btn-outline:hover { border-color: var(--navy); background: rgba(14,42,71,.04); }
+.btn-ghost { background: transparent; color: var(--teal); padding-left: 0; padding-right: 0; }
+.btn-ghost:hover { text-decoration: underline; }
+.btn-row { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 1.6rem; }
+
+/* ---------- Header ---------- */
+.site-header {
+  position: sticky; top: 0; z-index: 100;
+  background: rgba(247,245,240,.94);
+  backdrop-filter: saturate(140%) blur(8px);
+  border-bottom: 1px solid var(--line);
+  transition: transform .35s var(--ease);
+}
+.header-inner { display: flex; align-items: center; justify-content: space-between; height: 72px; }
+.brand { display: flex; align-items: center; gap: 12px; text-decoration: none; }
+.brand:hover { text-decoration: none; }
+.brand-mark {
+  width: 26px; height: 26px; background: var(--teal-bright); border-radius: 3px; flex: none;
+  box-shadow: inset 0 0 0 6px var(--navy);
+  transition: transform .6s var(--ease);
+}
+.brand:hover .brand-mark { transform: rotate(90deg) scale(1.08); }
+.brand-text { font-family: var(--font-sans); font-weight: 700; font-size: 1.32rem; color: var(--navy); line-height: 1; display: flex; flex-direction: column; letter-spacing: -0.03em; }
+.brand-sub { font-family: var(--font-sans); font-size: .58rem; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); margin-top: 5px; }
+.brand-text.light { color: #fff; }
+
+.primary-nav { display: flex; align-items: center; gap: 26px; }
+.primary-nav a { font-size: .92rem; font-weight: 500; color: var(--ink); position: relative; }
+.primary-nav a:hover { color: var(--teal); text-decoration: none; }
+.primary-nav a.active { color: var(--teal); }
+.primary-nav a:not(.nav-cta)::after {
+  content: ""; position: absolute; left: 0; right: 100%; bottom: -6px; height: 2px;
+  background: var(--teal); transition: right .3s var(--ease);
+}
+.primary-nav a:not(.nav-cta):hover::after,
+.primary-nav a:not(.nav-cta).active::after { right: 0; }
+.nav-cta { color: #fff !important; }
+.nav-toggle { display: none; background: none; border: 0; cursor: pointer; padding: 8px; flex-direction: column; gap: 5px; }
+.nav-toggle span { width: 24px; height: 2px; background: var(--navy); display: block; transition: transform .2s, opacity .2s; }
+.nav-toggle[aria-expanded="true"] span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+.nav-toggle[aria-expanded="true"] span:nth-child(2) { opacity: 0; }
+.nav-toggle[aria-expanded="true"] span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+/* ============================================================
+   HERO
+   ============================================================ */
+.hero {
+  position: relative;
+  padding: 88px 0 72px;
+  border-bottom: 1px solid var(--line);
+  overflow: hidden;
+  isolation: isolate;
+}
+.hero::before {
+  content: ""; position: absolute; inset: 0; z-index: -1;
+  background:
+    radial-gradient(ellipse 60% 55% at 15% 25%, rgba(20,184,166,.08), transparent 60%),
+    radial-gradient(ellipse 55% 45% at 90% 80%, rgba(14,42,71,.06), transparent 65%);
+  pointer-events: none;
+}
+.hero-grid { display: grid; grid-template-columns: 1.05fr .95fr; gap: 56px; align-items: center; }
+.hero h1 { max-width: 16ch; }
+.hero .eyebrow, .hero h1, .hero .lede, .hero .btn-row {
+  opacity: 0;
+  animation: fadeUp .85s var(--ease-out) forwards;
+}
+.hero .eyebrow { animation-delay: .05s; }
+.hero h1      { animation-delay: .15s; }
+.hero .lede   { animation-delay: .30s; margin-top: 1.2rem; }
+.hero .btn-row{ animation-delay: .45s; }
+
+.pulse-dot {
+  display: inline-block; width: 8px; height: 8px; border-radius: 50%;
+  background: var(--teal-bright); position: relative; margin-right: 8px; vertical-align: middle;
+}
+.pulse-dot::after {
+  content: ""; position: absolute; inset: -4px; border-radius: 50%;
+  border: 1.5px solid var(--teal-bright);
+  animation: pulseRing 2s var(--ease) infinite;
+}
+
+/* Pipeline */
+.pipeline {
+  background: rgba(255,255,255,.9);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+  padding: 26px 24px 22px;
+  opacity: 0;
+  animation: fadeUp 1s var(--ease-out) .5s forwards;
+  position: relative;
+}
+.pipeline-head {
+  display: flex; justify-content: space-between; align-items: baseline;
+  margin-bottom: 18px; padding-bottom: 12px;
+  border-bottom: 1px solid var(--line);
+}
+.pipeline-head h4 { color: var(--teal); margin: 0; font-size: .74rem; letter-spacing: .12em; text-transform: uppercase; }
+.pipeline-head span { font-size: .72rem; color: var(--muted); }
+
+.pipeline-svg { width: 100%; height: auto; display: block; overflow: visible; }
+
+.node-box { fill: #fff; stroke: var(--line-strong); stroke-width: 1; transition: stroke .3s, fill .3s; }
+.node-box.active { stroke: var(--teal); fill: #f0faf8; }
+.node-label { font-family: var(--font-sans); font-size: 8.6px; font-weight: 600; fill: var(--navy); }
+.node-sub   { font-family: var(--font-sans); font-size: 7px;   fill: var(--muted); }
+
+.flow-path { fill: none; stroke: var(--line-strong); stroke-width: 1.4; stroke-dasharray: 4 4; }
+.flow-path.active { stroke: var(--teal); }
+
+.packet { opacity: 0; }
+.packet.on { opacity: 1; }
+
+.hub-box { fill: var(--navy); stroke: var(--navy); stroke-width: 1; transition: filter .4s; }
+.hub-box.glow { filter: drop-shadow(0 0 10px rgba(20,184,166,.7)); }
+.hub-label { font-family: var(--font-sans); font-size: 9px; font-weight: 700; fill: #fff; }
+.hub-sub   { font-family: var(--font-sans); font-size: 7px; fill: var(--teal-bright); font-weight: 600; letter-spacing: .08em; }
+
+.tick {
+  opacity: 0; transform: scale(.4); transform-origin: center;
+  transition: opacity .3s var(--ease-out), transform .35s var(--ease-out);
+}
+.tick.on { opacity: 1; transform: scale(1); }
+.tick-circle { fill: var(--teal-bright); }
+.tick-mark { fill: none; stroke: #fff; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+
+.pipeline-foot {
+  display: flex; justify-content: space-between; align-items: center;
+  margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--line);
+  font-size: .72rem; color: var(--muted);
+  gap: 12px;
+}
+.pipeline-foot strong { color: var(--navy); font-weight: 600; }
+
+.replay-btn {
+  display: inline-flex; align-items: center; gap: 6px;
+  background: transparent; border: 1px solid var(--line-strong);
+  color: var(--navy); font-family: var(--font-sans); font-size: .72rem;
+  font-weight: 600; padding: 4px 10px; border-radius: 4px; cursor: pointer;
+  transition: border-color .2s, background .2s, color .2s;
+  letter-spacing: 0;
+}
+.replay-btn:hover { border-color: var(--teal); color: var(--teal); background: rgba(20,184,166,.06); }
+.replay-btn:focus-visible { outline: 2px solid var(--teal-bright); outline-offset: 2px; }
+.replay-btn .glyph { display: inline-block; transition: transform .6s var(--ease); }
+.replay-btn:hover .glyph { transform: rotate(-180deg); }
+
+/* Credential strip */
+.cred-strip { background: var(--navy); color: #cdd9e6; position: relative; overflow: hidden; }
+.cred-strip::before {
+  content: ""; position: absolute; inset: 0;
+  background: linear-gradient(90deg, transparent, rgba(20,184,166,.12), transparent);
+  background-size: 200% 100%;
+  animation: shimmer 8s linear infinite;
+  pointer-events: none;
+}
+.cred-strip .wrap {
+  display: flex; flex-wrap: wrap; gap: 8px 40px;
+  padding-top: 18px; padding-bottom: 18px;
+  position: relative;
+}
+.cred-strip span { font-size: .85rem; letter-spacing: .01em; }
+.cred-strip strong { color: var(--teal-bright); font-weight: 600; }
+
+/* Problem */
+.two-up { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; }
+.problem-card {
+  background: var(--paper); border: 1px solid var(--line);
+  border-left: 3px solid var(--gold); padding: 28px; border-radius: var(--radius);
+  transition: transform .3s var(--ease), box-shadow .3s var(--ease), border-left-color .3s;
+}
+.problem-card:hover { transform: translateY(-4px); box-shadow: var(--shadow); border-left-color: var(--teal); }
+.problem-card h3 { font-size: 1.05rem; font-weight: 600; }
+.problem-card p { color: var(--muted); margin: 0; font-size: .96rem; }
+
+/* 3D bridge steps */
+.bridge-stage { perspective: 1400px; perspective-origin: 50% 40%; padding: 20px 0 40px; }
+.bridge-3d {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;
+  transform-style: preserve-3d; transform: rotateX(6deg);
+  transition: transform .8s var(--ease);
+  counter-reset: step;
+}
+.bridge-stage:hover .bridge-3d { transform: rotateX(0deg); }
+.step {
+  background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 28px; position: relative;
+  counter-increment: step;
+  transform-style: preserve-3d;
+  transition: transform .4s var(--ease), box-shadow .4s var(--ease);
+  opacity: 0;
+}
+.step.in-view { animation: fadeUp .7s var(--ease-out) forwards; animation-delay: calc(var(--i, 0) * .12s); }
+.step::before {
+  content: "0" counter(step);
+  font-family: var(--font-sans); font-size: 1.9rem; font-weight: 700; color: var(--line-strong);
+  display: block; margin-bottom: 10px; line-height: 1;
+  transition: color .3s;
+}
+.step:hover { transform: translateZ(30px) translateY(-4px); box-shadow: var(--shadow-lift); }
+.step:hover::before { color: var(--teal-bright); }
+.step h3 { font-size: 1.1rem; margin-bottom: .4em; }
+.step p { color: var(--muted); font-size: .93rem; margin: 0; }
+
+/* Cards */
+.grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+.grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+.card {
+  background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 30px;
+  transition: border-color .25s, box-shadow .35s var(--ease), transform .35s var(--ease);
+  display: flex; flex-direction: column;
+  position: relative; overflow: hidden;
+}
+.card::before {
+  content: ""; position: absolute; top: 0; left: 0; right: 0; height: 2px;
+  background: linear-gradient(90deg, var(--teal), var(--teal-bright));
+  transform: scaleX(0); transform-origin: left;
+  transition: transform .4s var(--ease);
+}
+.card:hover { border-color: var(--line-strong); box-shadow: var(--shadow-lift); transform: translateY(-4px); }
+.card:hover::before { transform: scaleX(1); }
+.card h3 { font-size: 1.15rem; margin-bottom: .5em; }
+.card p { color: var(--muted); font-size: .94rem; flex: 1; margin-bottom: 1.2em; }
+.card .btn-ghost { align-self: flex-start; font-size: .9rem; }
+.card .tag { font-size: .7rem; font-weight: 700; letter-spacing: .11em; text-transform: uppercase; color: var(--teal); margin-bottom: 12px; }
+
+/* Work */
+.work-card {
+  background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius);
+  overflow: hidden; display: flex; flex-direction: column;
+  transition: transform .35s var(--ease), box-shadow .35s var(--ease);
+}
+.work-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-lift); }
+.work-card .work-meta { padding: 24px 24px 0; font-size: .75rem; font-weight: 700; letter-spacing: .11em; text-transform: uppercase; color: var(--teal); }
+.work-card .work-body { padding: 8px 24px 24px; flex: 1; display: flex; flex-direction: column; }
+.work-card h3 { margin: .4em 0 .5em; font-size: 1.16rem; }
+.work-card p { color: var(--muted); font-size: .93rem; flex: 1; }
+.work-outcome { font-size: .88rem; color: var(--navy); font-weight: 600; border-top: 1px solid var(--line); padding-top: 12px; margin-top: 4px; }
+
+/* Why */
+.why-list { display: grid; grid-template-columns: 1fr 1fr; gap: 26px 44px; }
+.why-item h3 { font-size: 1.02rem; font-weight: 600; margin-bottom: .35em; }
+.why-item p { color: var(--muted); font-size: .93rem; margin: 0; }
+
+/* Stats */
+.stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; margin: 40px 0; }
+.stat { text-align: center; }
+.stat-num {
+  font-family: var(--font-sans); font-size: clamp(1.9rem, 3.8vw, 2.8rem);
+  font-weight: 700; color: var(--teal); letter-spacing: -0.03em;
+  line-height: 1; display: block;
+}
+.stat-label { font-size: .78rem; color: var(--muted); letter-spacing: .05em; text-transform: uppercase; margin-top: 8px; display: block; }
+
+/* Tables */
+.table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: var(--radius); background: var(--paper); }
+table.data { width: 100%; border-collapse: collapse; font-size: .92rem; min-width: 640px; }
+table.data th { text-align: left; padding: 14px 18px; background: #f1eee7; color: var(--navy); font-weight: 700; border-bottom: 1px solid var(--line-strong); font-size: .76rem; letter-spacing: .05em; text-transform: uppercase; }
+table.data td { padding: 14px 18px; border-bottom: 1px solid var(--line); vertical-align: top; color: var(--ink); }
+table.data tr:last-child td { border-bottom: 0; }
+table.data td:first-child { font-weight: 600; color: var(--navy); }
+table.data tbody tr { transition: background .2s; }
+table.data tbody tr:hover { background: #faf8f3; }
+
+/* ============================================================
+   APPROACH - mapping diagram
+   ============================================================ */
+.mapping-toolbar {
+  display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center;
+  gap: 12px; margin-bottom: 20px;
+}
+.mapping-toolbar .hint { font-size: .84rem; color: var(--muted); }
+
+.mapping-list { display: flex; flex-direction: column; gap: 12px; }
+
+.map-row {
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  overflow: hidden;
+  transition: border-color .25s, box-shadow .3s var(--ease);
+}
+.map-row.in-view { border-color: var(--line-strong); }
+.map-row:hover { border-color: var(--teal); box-shadow: var(--shadow); }
+
+.map-row-head {
+  display: grid;
+  grid-template-columns: 1fr 60px 1fr;
+  gap: 12px;
+  align-items: stretch;
+}
+
+.map-arte {
+  padding: 20px 22px;
+  border-right: 1px solid var(--line);
+  display: flex; flex-direction: column; gap: 4px;
+  background: #fbfaf6;
+}
+.map-arte .map-tag { font-size: .68rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--gold); margin-bottom: 2px; }
+.map-arte .map-title { font-size: .95rem; font-weight: 600; color: var(--navy); line-height: 1.3; }
+.map-arte .map-sub { font-size: .8rem; color: var(--muted); margin-top: 2px; }
+
+.map-flow { display: grid; place-items: center; position: relative; background: var(--paper); border-right: 1px solid var(--line); padding: 8px 0; }
+.map-flow svg { width: 100%; height: 100%; overflow: visible; }
+.map-flow .track { stroke: var(--line-strong); stroke-width: 1.4; stroke-dasharray: 3 3; fill: none; }
+.map-flow .track.active { stroke: var(--teal); }
+.map-flow .flow-dot { opacity: 0; }
+.map-flow .flow-dot.on { opacity: 1; }
+.map-flow .flow-tick { opacity: 0; transform: scale(.4); transform-origin: center; transition: opacity .3s var(--ease-out), transform .35s var(--ease-out); }
+.map-flow .flow-tick.on { opacity: 1; transform: scale(1); }
+
+.map-esg { padding: 20px 22px; display: flex; flex-direction: column; gap: 4px; background: var(--paper); }
+.map-esg .map-tag { font-size: .68rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--teal); margin-bottom: 2px; }
+.map-esg .map-title { font-size: .95rem; font-weight: 600; color: var(--navy); line-height: 1.3; }
+.map-esg .map-sub { font-size: .8rem; color: var(--muted); margin-top: 2px; }
+
+.map-gap {
+  grid-column: 1 / -1;
+  border-top: 1px dashed var(--line);
+  padding: 0 22px;
+  max-height: 0; overflow: hidden; opacity: 0;
+  transition: max-height .4s var(--ease-out), opacity .3s var(--ease), padding .3s;
+  background: #fbfaf6;
+}
+.map-row.open .map-gap { max-height: 400px; opacity: 1; padding: 16px 22px 18px; }
+.map-gap-label { font-size: .7rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--gold); margin-bottom: 4px; }
+.map-gap p { margin: 0; font-size: .9rem; color: var(--ink); }
+
+.map-toggle {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 8px 18px 8px 22px;
+  border-top: 1px solid var(--line);
+  background: var(--paper);
+  cursor: pointer; border: 0; width: 100%;
+  font-family: var(--font-sans); font-size: .78rem; color: var(--muted);
+  transition: background .2s, color .2s; text-align: left;
+}
+.map-toggle:hover { background: #faf8f3; color: var(--navy); }
+.map-toggle .label { font-weight: 600; }
+.map-toggle .chev { transition: transform .3s var(--ease); font-size: .7rem; }
+.map-row.open .map-toggle .chev { transform: rotate(180deg); }
+
+@media (max-width: 760px) {
+  .map-row-head { grid-template-columns: 1fr; }
+  .map-arte { border-right: 0; border-bottom: 1px solid var(--line); }
+  .map-flow { border-right: 0; border-bottom: 1px solid var(--line); padding: 14px 22px; min-height: 50px; }
+  .map-flow svg { max-height: 40px; }
+}
+
+/* ============================================================
+   APPROACH - 3D globe of East Africa
+   ============================================================ */
+.globe-section {
+  background: var(--navy);
+  color: #cdd9e6;
+  padding: 72px 0 84px;
+  position: relative;
+  overflow: hidden;
+}
+.globe-section::before {
+  content: ""; position: absolute; inset: 0;
+  background: radial-gradient(ellipse 70% 60% at 70% 50%, rgba(20,184,166,.10), transparent 70%);
+  pointer-events: none;
+}
+.globe-grid {
+  display: grid;
+  grid-template-columns: 1.1fr .9fr;
+  gap: 48px;
+  align-items: center;
+  position: relative;
+}
+.globe-section h2 { color: #fff; }
+.globe-section p { color: #b9c8d8; }
+.globe-section .eyebrow { color: var(--teal-bright); }
+
+.globe-wrap {
+  position: relative;
+  aspect-ratio: 1 / 1;
+  max-width: 520px;
+  margin: 0 auto;
+  width: 100%;
+}
+#globe-canvas {
+  width: 100%; height: 100%;
+  display: block;
+  border-radius: 50%;
+}
+
+.globe-legend { list-style: none; padding: 0; margin: 24px 0 0; }
+.globe-legend li {
+  display: flex; align-items: center; gap: 10px;
+  padding: 8px 0;
+  border-bottom: 1px dashed rgba(255,255,255,.12);
+  font-size: .9rem;
+}
+.globe-legend li:last-child { border-bottom: 0; }
+.globe-legend .dot {
+  width: 8px; height: 8px; border-radius: 50%;
+  background: var(--teal-bright); flex: none;
+  box-shadow: 0 0 0 3px rgba(20,184,166,.2);
+}
+.globe-legend .name { color: #fff; font-weight: 600; }
+.globe-legend .count { margin-left: auto; color: var(--teal-bright); font-weight: 600; font-size: .82rem; }
+
+/* Service page */
+.service-hero { padding: 64px 0 40px; border-bottom: 1px solid var(--line); position: relative; }
+.breadcrumb { font-size: .8rem; color: var(--muted); margin-bottom: 18px; }
+.breadcrumb a { color: var(--muted); }
+.breadcrumb a:hover { color: var(--teal); }
+.service-body { display: grid; grid-template-columns: 1fr 320px; gap: 56px; padding: 56px 0; }
+.service-body h2 { font-size: 1.35rem; margin-top: 2em; }
+.service-body h2:first-child { margin-top: 0; }
+.phase-list { list-style: none; counter-reset: phase; padding: 0; margin: 0; }
+.phase-list li { counter-increment: phase; position: relative; padding: 0 0 20px 48px; border-left: 2px solid var(--line); margin-left: 14px; }
+.phase-list li::before {counter(phase); content: counter(phase) ; }
+  position: absolute; left: -15px; top: 0; width: 28px; height: 28px; border-radius: 50%;
+  background: var(--teal); color: #fff; font-size: .8rem; font-weight: 700;
+  display: grid; place-items: center;
+  transition: transform .3s var(--ease), background .3s; }
+.phase-list li:hover::before { transform: scale(1.15); background: var(--teal-bright); }
+.phase-list li:last-child { border-left-color: transparent; padding-bottom: 0; }
+.phase-list h4 { margin: 0 0 .2em; color: var(--navy); }
+.phase-list p { margin: 0; color: var(--muted); font-size: .92rem; }
+
+.sidebar { position: sticky; top: 96px; align-self: start; }
+.side-box { background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius); padding: 26px; margin-bottom: 20px; }
+.side-box h4 { color: var(--teal); margin-bottom: 14px; font-size: .78rem; letter-spacing: .1em; text-transform: uppercase; }
+.side-box ul { list-style: none; padding: 0; margin: 0; }
+.side-box li { padding: 8px 0; border-bottom: 1px dashed var(--line); font-size: .9rem; }
+.side-box li:last-child { border: 0; }
+.side-box p { font-size: .9rem; color: var(--muted); }
+
+.callout { background: #eef6f4; border-left: 3px solid var(--teal); padding: 24px 28px; border-radius: var(--radius); margin: 32px 0; }
+.callout p:last-child { margin: 0; }
+
+/* About */
+.about-grid { display: grid; grid-template-columns: 1fr minmax(220px, 1fr); gap: 56px; align-items: start; }
+.about-aside { background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius); padding: 28px; }
+.about-aside .photo {
+  object-fit: cover; width: 100%; height: 100%; border-radius: 2px; margin-bottom: 8px;
+  background: linear-gradient(135deg, #dfe6ec, #c5d2dd);
+  background-size: 200% 200%;
+  border-radius: 4px; margin-bottom: 20px; display: grid; place-items: center;
+  color: var(--muted); font-size: .78rem; text-align: center; padding: 20px;
+  animation: shimmer 6s ease-in-out infinite alternate;
+}
+/* ============================================================
+   ABOUT SECTION STYLES
+   ============================================================ */
+.about-aside h3 { font-size: 1.08rem; margin-bottom: .2em; }
+.about-aside .role { font-size: .83rem; color: var(--teal); font-weight: 600; margin-bottom: 1em; }
+
+/* Contact */
+.contact-grid { display: grid; grid-template-columns: 1fr 360px; gap: 56px; align-items: start; }
+.form-field { margin-bottom: 18px; }
+.form-field label { display: block; font-size: .83rem; font-weight: 600; color: var(--navy); margin-bottom: 6px; }
+.form-field input, .form-field select, .form-field textarea {
+  width: 100%; padding: 12px 14px; font-family: var(--font-sans); font-size: .94rem;
+  border: 1px solid var(--line-strong); border-radius: var(--radius); background: var(--paper); color: var(--ink);
+  transition: border-color .2s, box-shadow .2s;
+}
+.form-field input:focus, .form-field select:focus, .form-field textarea:focus {
+  outline: none; border-color: var(--teal); box-shadow: 0 0 0 3px rgba(20,184,166,.18);
+}
+.form-field textarea { min-height: 130px; resize: vertical; }
+.form-field .error { color: #b42318; font-size: .78rem; margin-top: 4px; display: none; }
+.form-field.invalid input, .form-field.invalid select, .form-field.invalid textarea { border-color: #b42318; }
+.form-field.invalid .error { display: block; }
+.consent { display: flex; gap: 10px; align-items: flex-start; font-size: .86rem; color: var(--muted); }
+.consent input { width: auto; margin-top: 3px; }
+.form-note { font-size: .8rem; color: var(--muted); margin-top: 12px; }
+
+.info-block { margin-bottom: 26px; }
+.info-block h4 { color: var(--teal); font-size: .76rem; letter-spacing: .1em; text-transform: uppercase; margin-bottom: 8px; }
+.info-block p { margin: 0; font-size: .93rem; }
+
+/* Gate */
+.gate { background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius); padding: 36px; text-align: center; margin: 40px 0; }
+.gate h3 { margin-bottom: .3em; }
+.gate p { color: var(--muted); max-width: 46ch; margin: 0 auto 1.4em; }
+.gate form { display: flex; gap: 10px; max-width: 460px; margin: 0 auto; }
+.gate input { flex: 1; padding: 12px 14px; border: 1px solid var(--line-strong); border-radius: var(--radius); font-family: var(--font-sans); font-size: .94rem; }
+.gate .download { display: none; }
+.gate.unlocked .gate-form { display: none; }
+.gate.unlocked .download { display: inline-flex; animation: fadeUp .5s var(--ease); }
+
+/* Toast */
+.toast {
+  position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%) translateY(120%);
+  background: var(--navy); color: #fff; padding: 14px 24px; border-radius: var(--radius);
+  font-size: .88rem; box-shadow: var(--shadow-lift); transition: transform .3s var(--ease); z-index: 300;
+}
+.toast.show { transform: translateX(-50%) translateY(0); }
+
+/* Footer */
+.site-footer { background: var(--navy-deep); color: #a9bacb; padding: 64px 0 0; }
+.footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1.2fr; gap: 40px; padding-bottom: 48px; }
+.footer-brand .brand-text { font-size: 1.35rem; margin-bottom: 12px; }
+.footer-brand p { font-size: .88rem; max-width: 30ch; }
+.footer-reg { font-size: .76rem !important; color: #6f8499; margin-top: 12px; }
+.footer-col h4 { color: #fff; font-size: .78rem; letter-spacing: .1em; text-transform: uppercase; margin-bottom: 16px; }
+.footer-col a, .footer-col p { display: block; font-size: .88rem; color: #a9bacb; margin-bottom: 10px; transition: color .2s, transform .2s; }
+.footer-col a:hover { color: var(--teal-bright); text-decoration: none; transform: translateX(3px); }
+.footer-bottom { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px; padding: 22px 24px; border-top: 1px solid rgba(255,255,255,.08); font-size: .8rem; }
+.footer-bottom p { margin: 0; }
+.footer-bottom a { color: #a9bacb; }
+
+/* Scroll progress */
+.scroll-progress {
+  position: fixed; top: 0; left: 0; height: 2px;
+  background: linear-gradient(90deg, var(--teal), var(--teal-bright));
+  z-index: 200; width: 0%;
+  transition: width .1s linear;
+}
+
+/* Page transition shell */
+#app { transition: opacity .24s var(--ease), transform .24s var(--ease); }
+#app.transition-out-left  { animation: pageOutLeft .22s var(--ease) forwards; }
+#app.transition-out-right { animation: pageOutRight .22s var(--ease) forwards; }
+#app.transition-in-left   { animation: pageInFromLeft .3s var(--ease-out) both; }
+#app.transition-in-right  { animation: pageInFromRight .3s var(--ease-out) both; }
+
+/* Responsive */
+@media (max-width: 960px) {
+  .hero-grid, .two-up, .grid-3, .grid-2, .why-list, .service-body, .about-grid, .contact-grid, .globe-grid { grid-template-columns: 1fr; }
+  .hero { padding: 56px 0 48px; }
+  .sidebar { position: static; }
+  .footer-grid { grid-template-columns: 1fr 1fr; }
+  .stats { grid-template-columns: repeat(2, 1fr); }
+  .bridge-3d { transform: none; }
+  .globe-wrap { max-width: 400px; }
+}
+@media (max-width: 760px) {
+  body { font-size: 16px; }
+  .section { padding: 56px 0; }
+  .nav-toggle { display: flex; }
+  .primary-nav {
+    position: absolute; top: 72px; left: 0; right: 0;
+    background: var(--sand); border-bottom: 1px solid var(--line);
+    flex-direction: column; align-items: stretch; gap: 0;
+    padding: 8px 24px 20px; display: none;
+  }
+  .primary-nav.open { display: flex; }
+  .primary-nav a { padding: 12px 0; border-bottom: 1px solid var(--line); }
+  .primary-nav a:not(.nav-cta)::after { display: none; }
+  .primary-nav .nav-cta { margin-top: 14px; text-align: center; justify-content: center; border-bottom: 0; }
+  .bridge-3d { grid-template-columns: 1fr; }
+  .footer-grid { grid-template-columns: 1fr; gap: 28px; }
+  .gate form { flex-direction: column; }
+  .gate input, .gate .btn { width: 100%; }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: .001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .001ms !important;
+    scroll-behavior: auto !important;
+  }
+  .reveal { opacity: 1; transform: none; }
+  .hero .eyebrow, .hero h1, .hero .lede, .hero .btn-row, .pipeline { opacity: 1; animation: none; }
+  .cred-strip::before, .about-aside .photo { animation: none; }
+  .packet, .flow-dot { opacity: 1 !important; }
+  .tick, .flow-tick { opacity: 1; transform: scale(1); }
+  #app.transition-out-left, #app.transition-out-right { animation: none; }
+  #app.transition-in-left, #app.transition-in-right { animation: none; }
+  .map-gap { max-height: none !important; opacity: 1 !important; padding: 16px 22px 18px !important; }
+}
+
+/* ============================================================
+   PRINT STYLESHEET - for proposal attachments
+   ============================================================ */
+@media print {
+  @page { margin: 18mm 16mm; }
+  :root {
+    --sand: #ffffff;
+    --paper: #ffffff;
+    --ink: #000000;
+    --navy: #000000;
+    --muted: #333333;
+    --line: #cccccc;
+    --line-strong: #999999;
+    --teal: #0b5f59;
+    --teal-bright: #0b5f59;
+    --gold: #6b4f14;
+  }
+  html, body {
+    background: #fff !important;
+    color: #000 !important;
+    font-size: 11pt;
+    line-height: 1.45;
+  }
+  /* Hide everything that has no business in a PDF */
+  .site-header, .site-footer, .scroll-progress, .toast,
+  .hero::before, .cred-strip::before,
+  .replay-btn, .map-toggle, .gate form,
+  .skip-link, .nav-toggle,
+  #globe-canvas,
+  .globe-section::before {
+    display: none !important;
+  }
+  /* Use link text for URL footnotes */
+  a { color: #000 !important; text-decoration: none; }
+  a[href^="http"]::after {
+    content: " (" attr(href) ")";
+    font-size: 8.5pt; color: #555;
+    word-break: break-all;
+  }
+  /* Flatten section backgrounds and remove shadows */
+  .section, .section.alt, .section.ink, .globe-section,
+  .cred-strip, .hero {
+    background: #fff !important;
+    color: #000 !important;
+    padding: 18px 0 !important;
+    border-bottom: 1px solid #ccc;
+    page-break-inside: avoid;
+  }
+  .section.ink h2, .section.ink h3,
+  .globe-section h2, .globe-section p, .globe-section .eyebrow,
+  .cred-strip span, .cred-strip strong {
+    color: #000 !important;
+  }
+  .cred-strip .wrap { padding-top: 8px; padding-bottom: 8px; }
+  /* Card, table, callout borders */
+  .card, .problem-card, .work-card, .step, .map-row,
+  .side-box, .about-aside, .gate {
+    box-shadow: none !important;
+    border: 1px solid #999 !important;
+    page-break-inside: avoid;
+  }
+  .card::before, .step::before { color: #666 !important; }
+  .step:hover, .card:hover { transform: none !important; }
+  /* Hero pipeline - static in print */
+  .pipeline {
+    opacity: 1 !important;
+    animation: none !important;
+    box-shadow: none !important;
+    border: 1px solid #999;
+  }
+  .node-box { fill: #fff !important; stroke: #666 !important; }
+  .flow-path { stroke: #0b5f59 !important; stroke-dasharray: none !important; }
+  .packet { opacity: 0 !important; }
+  .tick, .flow-tick { opacity: 1 !important; transform: scale(1) !important; }
+  .hub-box { fill: #0b5f59 !important; stroke: #0b5f59 !important; }
+  .hub-label { fill: #fff !important; }
+  .hub-sub { fill: #fff !important; }
+  /* Mapping rows - always open, no animation */
+  .map-row { break-inside: avoid; }
+  .map-row-head { grid-template-columns: 1fr 40px 1fr; }
+  .map-flow svg { height: 24px; }
+  .map-flow .track { stroke: #0b5f59 !important; stroke-dasharray: none !important; }
+  .map-flow .flow-dot { opacity: 0 !important; }
+  .map-flow .flow-tick { opacity: 1 !important; transform: scale(1) !important; }
+  .map-gap { max-height: none !important; opacity: 1 !important; padding: 12px 22px 14px !important; background: #f7f5f0; }
+  .map-toggle { display: none !important; }
+  .map-arte { background: #f7f5f0 !important; }
+  /* Globe - replaced by legend table in print */
+  .globe-section .globe-grid { display: block; }
+  .globe-wrap { display: none !important; }
+  .globe-legend { display: block !important; margin-top: 12px; }
+  .globe-legend li { color: #000 !important; border-bottom: 1px solid #ccc !important; }
+  .globe-legend .name { color: #000 !important; }
+  .globe-legend .count { color: #0b5f59 !important; }
+  /* Page breaks */
+  .section-head { page-break-after: avoid; }
+  h1, h2, h3, h4 { page-break-after: avoid; }
+  .grid-3, .grid-2 { display: block; }
+  .grid-3 > *, .grid-2 > * { margin-bottom: 12px; }
+  table.data { min-width: 0 !important; }
+  table.data th, table.data td { padding: 8px 10px !important; font-size: 9.5pt !important; }
+}
+</style>
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+<div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+
+<header class="site-header" id="site-header">
+  <div class="wrap header-inner">
+    <a href="#/" class="brand" aria-label="OIEEA home">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span class="brand-text">OIEEA<span class="brand-sub">Environmental &amp; ESG Advisory</span></span>
+    </a>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="primary-nav">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="primary-nav" id="primary-nav" aria-label="Primary">
+      <a href="#/services">Services</a>
+      <a href="#/approach">Approach</a>
+      <a href="#/sectors">Sectors</a>
+      <a href="#/work">Work</a>
+      <a href="#/about">About</a>
+      <a href="#/insights">Insights</a>
+      <a href="#/contact" class="btn btn-primary nav-cta">Request a review</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main" tabindex="-1">
+  <div id="app" aria-live="polite"></div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div class="footer-brand">
+      <span class="brand-text light">OIEEA</span>
+      <p>NEMA Compliance and ESG disclosure, by a registered expert.</p>
+      <p class="footer-reg">NEMA Associate Expert (EIA/EA), Reg. No. 13638</p>
+    </div>
+    <div class="footer-col">
+      <h4>Services</h4>
+      <a href="#/services/nema-compliance">NEMA Compliance</a>
+      <a href="#/services/environmental-audit">Environmental Audit</a>
+      <a href="#/services/esg-readiness">ESG Readiness</a>
+      <a href="#/services/technical-verification">Technical Verification</a>
+      <a href="#/services/due-diligence">E&amp;S due Diligence</a>
+      <a href="#/services/climate-risk">Climate &amp; Industrial Risk</a>
+    </div>
+    <div class="footer-col">
+      <h4>Company</h4>
+      <a href="#/approach">Approach</a>
+      <a href="#/work">Selected work</a>
+      <a href="#/about">About</a>
+      <a href="#/about/credentials">Credentials</a>
+      <a href="#/about/transparency">Transparency</a>
+      <a href="#/insights">Insights</a>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <a href="mailto:info@oieeadvisory.co.ke">info@oieeadvisory.co.ke</a>
+      <a href="tel:+254701602188">+254 701 602 188</a>
+      <p>Nairobi, Kenya<br>Serving Kenya &amp; the EAC</p>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <p>© <span id="year"></span> Otieno Irene Environmental &amp; ESG Advisory. All rights reserved.</p>
+    <p><a href="#/privacy">Privacy</a> · <a href="#/terms">Terms</a></p>
+  </div>
+</footer>
+
+<script>
+/* ============================================================
+   OIEEA - router + page content + motion engine
+   ============================================================ */
+
+const app = document.getElementById('app');
+const nav = document.getElementById('primary-nav');
+const navToggle = document.getElementById('nav-toggle');
+const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+/* ---------- Shared partials ---------- */
+const ctaBand = () => `
+  <section class="section ink">
+    <div class="wrap" style="text-align:center;max-width:720px;">
+      <h2 class="reveal">Start with a scoping call.</h2>
+      <p class="reveal" data-delay="1" style="color:#b9c8d8;max-width:52ch;margin:0 auto 1.6em;">Tell us what triggered the need - a NEMA notice, a buyer questionnaire, a lender request - and we will tell you what it takes.</p>
+      <div class="btn-row reveal" data-delay="2" style="justify-content:center;">
+        <a href="#/contact" class="btn btn-primary">Request a review</a>
+        <a href="#/approach" class="btn btn-outline" style="color:#fff;border-color:rgba(255,255,255,.3);">Read the method</a>
+      </div>
+    </div>
+  </section>`;
+
+const serviceCard = (s, i) => `
+  <a href="#/services/${s.slug}" class="card reveal" data-delay="${(i % 3) + 1}">
+    <span class="tag">${s.tag}</span>
+    <h3>${s.title}</h3>
+    <p>${s.short}</p>
+    <span class="btn-ghost">Explore →</span>
+  </a>`;
+
+const workCard = (w, i) => `
+  <a href="#/work/${w.slug}" class="work-card reveal" data-delay="${(i % 3) + 1}">
+    <div class="work-meta">${w.sector} · ${w.location}</div>
+    <div class="work-body">
+      <h3>${w.title}</h3>
+      <p>${w.short}</p>
+      <div class="work-outcome">${w.outcomeShort}</div>
+    </div>
+  </a>`;
+
+/* ---------- Hero pipeline SVG ---------- */
+const pipelineSVG = () => `
+  <svg class="pipeline-svg" viewBox="0 0 400 230" role="img" aria-label="Animation: three NEMA compliance artefacts flow into a single ESG disclosure">
+    <g>
+      <rect class="node-box" id="node-mon" x="6" y="20" width="104" height="42" rx="5"/>
+      <text class="node-label" x="16" y="38">Monitoring record</text>
+      <text class="node-sub"   x="16" y="51">effluent · emissions</text>
+
+      <rect class="node-box" id="node-audit" x="6" y="94" width="104" height="42" rx="5"/>
+      <text class="node-label" x="16" y="112">Audit finding</text>
+      <text class="node-sub"   x="16" y="125">compliance · actions</text>
+
+      <rect class="node-box" id="node-stake" x="6" y="168" width="104" height="42" rx="5"/>
+      <text class="node-label" x="16" y="186">Stakeholder log</text>
+      <text class="node-sub"   x="16" y="199">consultation · GRM</text>
+    </g>
+
+    <path class="flow-path" id="path-mon"   d="M 110 41 C 160 41, 180 115, 232 115"/>
+    <path class="flow-path" id="path-audit" d="M 110 115 C 160 115, 180 115, 232 115"/>
+    <path class="flow-path" id="path-stake" d="M 110 189 C 160 189, 180 115, 232 115"/>
+
+    <circle class="packet" id="packet-mon"   cx="110" cy="41"  r="4.5" fill="#14b8a6"/>
+    <circle class="packet" id="packet-audit" cx="110" cy="115" r="4.5" fill="#14b8a6"/>
+    <circle class="packet" id="packet-stake" cx="110" cy="189" r="4.5" fill="#14b8a6"/>
+
+    <g>
+      <rect class="hub-box" id="hub" x="236" y="80" width="158" height="70" rx="6"/>
+      <text class="hub-sub"   x="248" y="99">VERIFIABLE OUTPUT</text>
+      <text class="hub-label" x="248" y="117">ESG disclosure</text>
+      <text class="hub-label" x="248" y="133" style="font-size:7.5px;font-weight:500;fill:#b9c8d8;">GRI 303 / 305 / 306 · IFRS S1/S2</text>
+    </g>
+
+    change font to Classic Sans-serif.
+  </svg>
+`;
+
+/* ---------- Globe delivery data ---------- */
+const deliverySites = [
+  { name: 'Nairobi',        lat: -1.29,  lon: 36.82,  count: 11 },
+  { name: 'Kiambu',         lat: -1.17,  lon: 36.83,  count: 4 },
+  { name: 'Athi River',     lat: -1.45,  lon: 36.98,  count: 3 },
+  { name: 'Thika',          lat: -1.03,  lon: 37.07,  count: 2 },
+  { name: 'Nakuru',         lat: -0.30,  lon: 36.08,  count: 2 },
+  { name: 'Mombasa',        lat: -4.04,  lon: 39.67,  count: 2 },
+  { name: 'Kampala',        lat:  0.35,  lon: 32.58,  count: 1 },
+  { name: 'Dar es Salaam',  lat: -6.79,  lon: 39.21,  count: 1 }
+];
+
+/* ---------- Data ---------- */
+const services = [
+  { slug:'nema-', tag:'Compliance', title:'NEMA Compliance & Licensing',
+    short:'EIA/EA studies, ESMPs, licence applications, and regulatory liaison under EMCA 1999.',
+    forWho:'You are planning a new facility, expanding an existing one, or your licence renewal is due within six months.',
+    phases:[
+      ['Scoping and regulatory review','Define the study boundary against EMCA 1999 and NEMA guidelines; confirm licence category and required instruments.'],
+      ['Baseline studies','Environmental and social baseline data collection for the licensed facility and its area of influence.'],
+      ['Impact prediction and ESMP','Assess significance, apply the mitigation hierarchy, and design an ESMP with monitoring indicators and responsibilities.'],
+      ['NEMA submission and liaison','Compile the application pack, manage public participation, and respond to authority queries.'],
+      ['Post-licence support','Support implementation, annual monitoring, and audit readiness.']
+    ],
+    deliverables:['EIA report and ESMP','Licence application pack','Public participation record','Response to NEMA queries'],
+    framework:'EMCA 1999 · EIA/EA Regulations 2003 · NEMA guidelines',
+    sample:'Environmental audit extract and ESMP extract' },
+
+  { slug:'environmental-audit', tag:'Compliance', title:'Environmental Audit',
+    short:'Independent audits against EMCA 1999, with a corrective action plan that closes findings.',
+    forWho:'You have received a NEMA audit notice, or your annual self-audit is due.',
+    phases:[
+      ['Document review','Review permits, monitoring records, and prior audit findings.'],
+      ['Site inspection','Walk the facility; verify effluent, emissions, waste, storage, and safety controls.'],
+      ['Compliance assessment','Test observed practice against EMCA and permit conditions.'],
+      ['Findings and risk rating','Rate each finding for regulatory risk and consequence.'],
+      ['Corrective action plan','Define actions, owners, and closure evidence the regulator will accept.']
+    ],
+    deliverables:['Audit report','Risk-rated findings table','Corrective action plan','Closure evidence pack'],
+    framework:'EMCA 1999 audit requirements · NEMA procedures',
+    sample:'Audit findings and corrective action table' },
+
+  { slug:'esg-readiness', tag:'ESG', title:'ESG Readiness & Disclosure',
+    short:'Materiality, framework gap review against GRI and IFRS S1/S2, data architecture, and a disclosure roadmap.',
+    forWho:'A buyer, lender, or parent has sent an ESG questionnaire you cannot fully answer.',
+    phases:[
+      ['Materiality assessment','Identify the topics that matter for your sector and your stakeholders.'],
+      ['Framework gap review','Compare current data and disclosure against GRI and IFRS S1/S2.'],
+      ['Data architecture','Design a workbook and controls so data is collected once and used twice.'],
+      ['Disclosure drafting','Write the disclosure with gaps stated honestly rather than filled with estimates.'],
+      ['Roadmap','Sequence the fixes by effort and by buyer or lender priority.']
+    ],
+    deliverables:['Materiality matrix','Framework compliance table','ESG data workbook','Three-priority disclosure roadmap'],
+    framework:'GRI Standards · IFRS S1/S2 · TCFD · GHG Protocol concepts',
+    sample:'Disclosure gap review against GRI and IFRS S1/S2' },
+
+  { slug:'technical-verification', tag:'Verification', title:'Technical Verification for ESG',
+    short:'Test whether the environmental data in a disclosure is defensible before it is signed, lent against, or forwarded.',
+    forWho:'You need to know whether the environmental data in a disclosure is defensible before you sign it, lend against it, or forward it.',
+    phases:[
+      ['Data lineage review','Trace each reported figure back to its source measurement.'],
+      ['Methodology assessment','Test measurement method, unit handling, and calculation against the claimed framework.'],
+      ['Boundary and restatement check','Confirm the reporting boundary and whether prior figures were restated.'],
+      ['Findings memo','A short, plain-language opinion on what is defensible and what is not.']
+    ],
+    deliverables:['Verification memo','Data quality findings','Audit-ready documentation'],
+    framework:'GRI · IFRS S1/S2 · GHG Protocol concepts',
+    sample:'ESG data workbook and verification memo' },
+
+  { slug:'due-diligence', tag:'Due diligence', title:'E&S Due Diligence',
+    short:'Independent E&S risk opinions for lenders, investors, and acquirers of industrial assets.',
+    forWho:'You are lending to, investing in, or acquiring an industrial asset and need an independent E&S opinion.',
+    phases:[
+      ['Screening against IFC PS 1–8','Assess the asset against each applicable Performance Standard.'],
+      ['Risk categorisation','Assign an indicative E&S risk category with written justification.'],
+      ['ESAP design','Recommend conditions that are specific, monitorable, and proportionate.'],
+      ['Reporting','Deliver a memorandum the credit or investment committee can act on.']
+    ],
+    deliverables:['IFC PS screening memorandum','Risk register','ESAP conditions','Committee-ready summary'],
+    framework:'IFC Performance Standards 1–8 · Equator Principles',
+    sample:'IFC PS screening memorandum' },
+
+  { slug:'climate-risk', tag:'Risk', title:'Climate & Industrial Risk',
+    short:'Physical climate and Natech exposure for manufacturing assets, structured for TCFD and IFRS S2.',
+    forWho:'You need to understand physical climate and Natech exposure to a manufacturing asset.',
+    phases:[
+      ['Hazard identification','Flood, seismic, chemical release, and cascading NaTech scenarios.'],
+      ['Consequence assessment','Likelihood and consequence for the asset, its people, and its supply chain.'],
+      ['Resilience measures','Three prioritised measures with indicative cost and benefit framing.'],
+      ['Disclosure structuring','Present findings against TCFD and IFRS S2 physical-risk structure.']
+    ],
+    deliverables:['Hazard and Natech risk register','Resilience recommendations','Disclosure-ready summary'],
+    framework:'TCFD · IFRS S2 · Natech assessment methods',
+    sample:'Climate and Natech risk brief' }
+];
+
+const work = [
+  { slug:'food-processing-kiambu', sector:'Food processing', location:'Kiambu County',
+    title:'Audit, licence renewal, and a first ESG dataset',
+    short:'A NEMA audit finding on effluent quality coincided with a buyer questionnaire demanding ESG data the company did not have.',
+    outcomeShort:'Licence renewed; buyer questionnaire answered with verifiable data.',
+    situation:'A mid-sized food processor exporting to regional markets faced a NEMA audit finding on effluent quality and a buyer questionnaire demanding ESG data the company did not have. The two problems sat in different departments and were being handled as unrelated.',
+    did:[
+      'Conducted the environmental audit and structured the findings as a corrective action plan accepted by NEMA.',
+      'Used the same audit data to build the client’s first ESG data workbook covering water withdrawal, effluent load, energy, and waste by stream.',
+      'Produced a two-page board summary identifying the three material ESG topics to address before the next buyer review.'
+    ],
+    deliverables:['NEMA-compliant audit report','Corrective action plan with closure evidence','ESG data workbook mapped to GRI 303/305/306','Board summary'],
+    outcome:'Licence renewed. The buyer questionnaire was completed with verifiable data rather than estimates. The client subsequently engaged OIEEA for annual audit and ESG data maintenance.' },
+
+  { slug:'chemical-athi-river', sector:'Chemical manufacturing', location:'Athi River',
+    title:'Natech screening for a lender',
+    short:'A development finance institution needed an independent E&S opinion before lending to a chemical manufacturer.',
+    outcomeShort:'Loan proceeded subject to two ESAP conditions OIEEA recommended.',
+    situation:'A development finance institution considering a loan to a chemical manufacturer required an independent E&S risk opinion. The facility sits in an industrial zone with flood exposure and stores hazardous materials.',
+    did:[
+      'Assessed flood and seismic exposure to the chemical storage area.',
+      'Modelled a NaTech release scenario and reviewed the facility’s emergency response plan against the assessed risk.',
+      'Screened the operation against IFC Performance Standards 1, 3, and 4.'
+    ],
+    deliverables:['Hazard and Natech risk register','Resilience recommendations integrated into the capital plan','IFC PS screening memorandum with indicative risk category and recommended ESAP conditions'],
+    outcome:'The lender proceeded with the loan subject to two ESAP conditions OIEEA had recommended. The client adopted a storage re-siting measure in the following capital cycle.' },
+
+  { slug:'plastics-nairobi', sector:'Plastics & packaging', location:'Nairobi',
+    title:'ESG gap assessment against GRI and IFRS S1/S2',
+    short:'A supplier to a multinational buyer was asked to complete an ESG disclosure aligned with the buyer’s own reporting.',
+    outcomeShort:'Disclosure accepted on time, with two gaps disclosed transparently.',
+    situation:'A plastics and packaging manufacturer supplying a multinational buyer was asked to complete an ESG disclosure aligned with the buyer’s reporting requirements. The company had operational data but no reporting structure.',
+    did:[
+      'Conducted a sector materiality assessment with stakeholder input.',
+      'Reviewed existing data against GRI 302/305/306 and IFRS S1/S2.',
+      'Identified material gaps in boundary definition and data quality.',
+      'Produced a phased disclosure roadmap with indicative effort and cost.'
+    ],
+    deliverables:['Materiality matrix','Framework compliance table with commentary','Data quality findings','Three-priority disclosure roadmap'],
+    outcome:'The client completed the buyer’s disclosure on time, with two data gaps disclosed transparently rather than filled with estimates. The buyer accepted the submission.' }
+];
+
+const insights = [
+  { slug:'esmp-data-is-esg-disclosure', date:'2025-03-12', tag:'Method',
+    title:'Your ESMP data is already an ESG disclosure - here is how to use it',
+    excerpt:'Most Kenyan manufacturers generate usable ESG data every month through NEMA monitoring. The gap is translation, not collection.' },
+  { slug:'buyer-esg-questionnaire', date:'2025-02-04', tag:'Manufacturing',
+    title:'What a buyer’s ESG questionnaire actually asks a Kenyan manufacturer',
+    excerpt:'The questions look like reporting questions. Most of them are measurement questions, and finance cannot answer them alone.' },
+  { slug:'natech-kenyan-industrial-zones', date:'2025-01-15', tag:'Risk',
+    title:'NaTech risk in Kenyan industrial zones: the hazard nobody screens for',
+    excerpt:'Natural-hazard-triggered technological events sit between disaster risk and process safety. In most EIAs, neither discipline owns them.' }
+];
+
+const articles = {
+  'esmp-data-is-esg-disclosure': `
+    <p class="lede">Most Kenyan manufacturers generate usable ESG data every month through NEMA monitoring. The gap is translation, not collection.</p>
+    <p>A food processor monitoring effluent every month is producing the raw material for a GRI 303 water disclosure. A chemical plant tracking hazardous waste movements is producing GRI 306. A facility reporting stack emissions against permit limits is producing the basis for GRI 305. The data exists, is measured, and is audited by the regulator.</p>
+    <p>Yet when a buyer or lender sends an ESG questionnaire, the same company often reports that it does not have the data. What it does not have is the translation layer.</p>
+    <h2>Where the disconnect sits</h2>
+    <p>NEMA monitoring is organised around permit conditions: is this parameter within this limit at this point? ESG reporting is organised around performance and boundary: what was our total withdrawal across the reporting boundary, and how does it compare to last year on a consistent basis?</p>
+    <p>The measurement is shared. The framing, the boundary, and the restatement policy are not.</p>
+    <h2>Three things to fix</h2>
+    <p><strong>Boundary.</strong> A permit covers a licensed facility. An ESG disclosure covers a reporting boundary that may include warehouses, logistics, and contract manufacturing. Decide the boundary before the first reporting cycle, and state it.</p>
+    <p><strong>Consistency.</strong> NEMA monitoring may not require month-on-month comparability across all parameters. ESG reporting does. Put the monitoring data into a structured workbook so trends and variances are visible.</p>
+    <p><strong>Restatement.</strong> If the boundary or method changes, prior figures must be restated and the reason disclosed. Most first-cycle disclosures in Kenya do not do this, and it is the first thing a lender’s technical reviewer will ask about.</p>
+    <div class="callout"><p>One engagement can produce both a NEMA-compliant output and an ESG-usable dataset. The cost of doing them separately is not double the work - it is double the coordination, and often a second consultant.</p></div>
+    <p><a href="#/approach">Read how the NEMA-to-ESG bridge works →</a></p>`,
+
+  'buyer-esg-questionnaire': `
+    <p class="lede">The questions look like reporting questions. Most of them are measurement questions, and finance cannot answer them alone.</p>
+    <p>A Kenyan manufacturer receives an ESG questionnaire from a multinational buyer. It arrives as a spreadsheet with eighty rows, and it lands on the desk of whoever handles the buyer relationship - usually commercial or finance.</p>
+    <p>Half the rows ask for policy documents, which can be produced. The other half ask for numbers: energy consumption by source, water withdrawal and discharge, waste by disposal route, lost-time injury frequency, supplier environmental assessment coverage.</p>
+    <h2>Why finance cannot close it alone</h2>
+    <p>The numbers exist, but they sit with the environmental officer, the plant engineer, and the HR safety lead. Finance can collate them, but cannot verify them. And the buyer is increasingly asking not just for the number but for the method behind it.</p>
+    <p>Two questions recur in almost every questionnaire and are almost always answered weakly: <em>What is your reporting boundary?</em> and <em>Have prior figures been restated, and why?</em></p>
+    <h2>A practical response</h2>
+    <p>Treat the questionnaire as a data architecture problem, not a writing problem. Map each numeric question to a source record. Where the record exists but the boundary is unclear, state the boundary you used. Where the record does not exist, say so and give a plan and a date.</p>
+    <p>A buyer will accept a disclosed gap with a credible plan far more readily than an estimate that cannot be traced. The second is a credibility risk; the first is a management response.</p>
+    <div class="callout"><p>If the questionnaire is recurrent - annual, or per contract - build the workbook once and maintain it. The second cycle should take a fraction of the first.</p></div>
+    <p><a href="#/services/esg-readiness">See the ESG readiness service →</a></p>`,
+
+  'natech-kenyan-industrial-zones': `
+    <p class="lede">Natural-hazard-triggered technological events sit between disaster risk and process safety. In most EIAs, neither discipline owns them.</p>
+    <p>A NaTech event is a technological accident - a chemical release, a fire, an explosion - triggered by a natural hazard such as a flood, an earthquake, or extreme heat. It is a well-established category in European and North American industrial regulation. In Kenyan industrial EIA practice, it is rarely screened for explicitly.</p>
+    <h2>Why the gap exists</h2>
+    <p>Disaster risk assessment tends to focus on the community and the asset: who is exposed, what is damaged. Process safety tends to focus on the plant: what can fail, under what conditions. NaTech sits at the intersection, and in an EIA organised around environmental and social impacts, the intersection can fall between the sections.</p>
+    <p>The result is that a facility in a flood-prone industrial zone may have a flood risk assessment and a HAZOP, but no assessment of what happens when the two interact - flooded chemical storage, a release carried by water, emergency access cut off.</p>
+    <h2>What a NaTech screen adds</h2>
+    <p>A screen does not replace a HAZOP or a flood study. It connects them. It asks: given the natural hazards at this site, which hazardous installations are exposed, and what is the credible consequence pathway?</p>
+    <p>For a lender or an acquirer, that question is increasingly material. It is a physical climate risk under IFRS S2, and it is an operational resilience question for the insurer.</p>
+    <div class="callout"><p>If your EIA has a flood section and a process-safety section that never reference each other, the NaTech screen is the missing paragraph - and sometimes the missing mitigation measure.</p></div>
+    <p><a href="#/services/climate-risk">See the climate and industrial risk service →</a></p>`
+};
+
+/* ---------- Approach mapping data ---------- */
+const mappingRows = [
+  { id: 'mon',   artefact: 'ESMP monitoring data', artefactSub: 'effluent, emissions, waste',
+    esg: 'GRI 303 / 305 / 306', esgSub: 'water · emissions · waste',
+    gap: 'Boundary definition beyond the licensed facility; restatement policy for prior-period figures.' },
+  { id: 'audit', artefact: 'Environmental audit findings', artefactSub: 'compliance status · actions · risk ratings',
+    esg: 'IFRS S1 internal control', esgSub: 'governance disclosure',
+    gap: 'Linkage to financial materiality; board-level reporting line and assurance trail.' },
+  { id: 'stake', artefact: 'Stakeholder engagement record', artefactSub: 'consultation log · grievances',
+    esg: 'GRI 413 local communities', esgSub: 'social performance disclosure',
+    gap: 'Consistency of engagement across the reporting period; vulnerable-group inclusion and evidence.' },
+  { id: 'hazard', artefact: 'Hazard and risk assessment', artefactSub: 'physical risk · likelihood · consequence',
+    esg: 'IFRS S2 / TCFD', esgSub: 'physical risk disclosure',
+    gap: 'Scenario analysis, defined time horizons, and financial quantification of the assessed risk.' },
+  { id: 'ps', artefact: 'Process safety / Natech assessment', artefactSub: 'major accident hazard · cascading risk',
+    esg: 'Operational resilience', esgSub: 'supply-chain continuity disclosure',
+    gap: 'Supplier-tier visibility and linkage to insurance and business continuity disclosure.' }
+];
+
+/* ---------- Page templates ---------- */
+const pages = {
+
+  '/': () => `
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <span class="eyebrow"><span class="pulse-dot"></span>NEMA-registered Expert (EIA/EA) · Nairobi</span>
+          <h1>NEMA Compliance and ESG Disclosure</h1>
+          <p class="lede">One engagement. Two usable outputs. We help Kenyan manufacturers satisfy the regulator today and the lender, buyer, or parent tomorrow.</p>
+          <div class="btn-row">
+            <a href="#/contact" class="btn btn-primary">Request a review</a>
+            <a href="#/approach" class="btn btn-outline">Read the method</a>
+          </div>
+        </div>
+        <div class="pipeline">
+          <div class="pipeline-head">
+            <h4>The bridge, live</h4>
+            <span>compliance → disclosure</span>
+          </div>
+          ${pipelineSVG()}
+          <div class="pipeline-foot">
+            <span>Three artefacts · <strong>one verified output</strong></span>
+            <button type="button" class="replay-btn" id="replay-pipeline" aria-label="Replay the pipeline animation">
+              <span class="glyph" aria-hidden="true">↻</span> Replay
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="cred-strip">
+      <div class="wrap">
+        <span><strong>NEMA Associate Expert</strong> · Reg. No. 13638</span>
+        <span><strong>6 years</strong> environmental assessment &amp; audit</span>
+        <span><strong>Manufacturing</strong> &amp; industrial focus</span>
+        <span><strong>Nairobi</strong> · serving Kenya &amp; EAC</span>
+      </div>
+    </div>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="eyebrow">The problem</span>
+          <h2>Two burdens. One dataset.</h2>
+          <p>NEMA compliance and ESG reporting are usually handled by different people, in different departments, from the same underlying measurements. That separation is expensive and it is avoidable.</p>
+        </div>
+        <div class="two-up">
+          <div class="problem-card reveal" data-delay="1">
+            <h3>Compliance sits with the environmental officer</h3>
+            <p>Monitoring, audits, licence renewals, and NEMA queries are managed as a regulatory obligation - correctly, but in isolation from how the company reports itself to anyone else.</p>
+          </div>
+          <div class="problem-card reveal" data-delay="2">
+            <h3>ESG questionnaires land on finance</h3>
+            <p>Buyer and lender questionnaires arrive with the commercial team, who can collate numbers but cannot verify them. The technical evidence exists elsewhere, unconnected.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="eyebrow">The method</span>
+          <h2>Compliance data, translated into verifiable disclosure.</h2>
+          <p>The bridge is not a repackaging exercise. It reveals where NEMA data is sufficient for ESG purposes and where it is not.</p>
+        </div>
+        <div class="bridge-stage">
+          <div class="bridge-3d">
+            <div class="step reveal" data-delay="1" style="--i:0;"><h3>Compliance data</h3><p>Measured environmental performance already generated through NEMA monitoring, audits, and ESMP implementation.</p></div>
+            <div class="step reveal" data-delay="2" style="--i:1;"><h3>Translation</h3><p>Map each artefact to its ESG application, fix the boundary and restatement gaps, and structure the data once.</p></div>
+            <div class="step reveal" data-delay="3" style="--i:2;"><h3>Verifiable disclosure</h3><p>A disclosure that holds up to a lender’s technical reviewer because the figures trace back to measurement.</p></div>
+          </div>
+        </div>
+        <div class="btn-row reveal"><a href="#/approach" class="btn btn-outline">See the full methodology</a></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="stats reveal">
+          <div class="stat"><span class="stat-num" data-count="24">0</span><span class="stat-label">EIA &amp; audit projects</span></div>
+          <div class="stat"><span class="stat-num" data-count="6">0</span><span class="stat-label">6 Years EIA/EA practice</span></div>
+          <div class="stat"><span class="stat-num" data-count="5">0</span><span class="stat-label">Industrial sub-sectors</span></div>
+          <div class="stat"><span class="stat-num" data-count="100" data-suffix="%">0</span><span class="stat-label">NEMA licence success</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="eyebrow">Services</span>
+          <h2>Six service lines, one system.</h2>
+        </div>
+        <div class="grid-3">${services.map(serviceCard).join('')}</div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="eyebrow">Selected work</span>
+          <h2>Anonymised cases, real outcomes.</h2>
+          <p>Client identities are withheld under confidentiality. Sector, scope, and outcome are accurate.</p>
+        </div>
+        <div class="grid-3">${work.map(workCard).join('')}</div>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="eyebrow">Why OIEEA</span>
+          <h2>Deliberately narrow. Deliberately technical.</h2>
+        </div>
+        <div class="why-list">
+          <div class="why-item reveal" data-delay="1"><h3>Registered, not coordinated</h3><p>The compliance work is done by a NEMA Expert who can sign it, defend it to the authority, and appear at an audit.</p></div>
+          <div class="why-item reveal" data-delay="2"><h3>ESG claims are verified</h3><p>When a client says water intensity improved, we check the boundary, the baseline, and whether the improvement is real.</p></div>
+          <div class="why-item reveal" data-delay="3"><h3>The bridge is built in</h3><p>One engagement produces a NEMA-compliant output and an ESG-usable dataset. No second consultant for the second output.</p></div>
+          <div class="why-item reveal" data-delay="4"><h3>Manufacturing only</h3><p>Industrial and manufacturing clients only. The methodology sharpens with each engagement and the client gets the benefit.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <span class="eyebrow">Insights</span>
+          <h2>Notes from the practice.</h2>
+        </div>
+        <div class="grid-3">
+          ${insights.slice(0,3).map((a,i) => `
+            <a href="#/insights/${a.slug}" class="card reveal" data-delay="${i+1}">
+              <span class="tag">${a.tag}</span>
+              <h3>${a.title}</h3>
+              <p>${a.excerpt}</p>
+              <span class="btn-ghost">Read →</span>
+            </a>`).join('')}
+        </div>
+      </div>
+    </section>
+
+    ${ctaBand()}
+  `,
+
+  '/services': () => `
+    <section class="service-hero">
+      <div class="wrap">
+        <div class="breadcrumb"><a href="#/">Home</a> / Services</div>
+        <span class="eyebrow">Services</span>
+        <h1 class="reveal">The full offer, as one system.</h1>
+        <p class="lede reveal" data-delay="1">Six service lines that connect at the data layer. Most clients start with compliance and discover the ESG output comes almost free.</p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="wrap">
+        <div class="table-wrap reveal">
+          <table class="data">
+            <thead><tr><th>Service</th><th>What you get</th><th>Who it is for</th></tr></thead>
+            <tbody>
+              ${services.map(s => `<tr><td><a href="#/services/${s.slug}">${s.title}</a></td><td>${s.short}</td><td>${s.forWho}</td></tr>`).join('')}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    <section class="section alt">
+      <div class="wrap">
+        <div class="section-head reveal"><span class="eyebrow">Engagement structures</span><h2>How work is commissioned.</h2></div>
+        <div class="grid-3">
+          <div class="card reveal" data-delay="1"><span class="tag">Annual</span><h3>Compliance retainer</h3><p>Environmental audit, NEMA liaison, and monitoring review across a 12-month cycle, renewable.</p></div>
+          <div class="card reveal" data-delay="2"><span class="tag">Fixed scope</span><h3>Project engagement</h3><p>EIA, audit, risk assessment, or due diligence delivered over 4–12 weeks against a defined scope.</p></div>
+          <div class="card reveal" data-delay="3"><span class="tag">Sprint</span><h3>ESG readiness sprint</h3><p>Materiality, framework gap review, and a disclosure roadmap in 3–4 weeks, fixed fee.</p></div>
+          <div class="card reveal" data-delay="1"><span class="tag">Opinion</span><h3>Technical verification</h3><p>Independent data review and opinion for a lender, investor, or buyer, in 1–2 weeks.</p></div>
+          <div class="card reveal" data-delay="2"><span class="tag">Interim</span><h3>Embedded advisory</h3><p>Part-time support for a sustainability lead or CFO across 3–6 months.</p></div>
+          <div class="card reveal" data-delay="3"><span class="tag">Bespoke</span><h3>Something else</h3><p>If the need does not fit a box, describe it and we will tell you honestly whether we can help.</p></div>
+        </div>
+        <p class="form-note reveal" style="margin-top:24px;">Fees are discussed in conversation. We are priced between large international consultancies and sole-practitioner generalists. The value proposition is not the lowest fee - it is that one engagement produces two usable outputs.</p>
+      </div>
+    </section>
+    ${ctaBand()}
+  `,
+
+  '/approach': () => `
+    <section class="service-hero">
+      <div class="wrap">
+        <div class="breadcrumb"><a href="#/">Home</a> / Approach</div>
+        <span class="eyebrow">Methodology</span>
+        <h1 class="reveal">The NEMA-to-ESG bridge.</h1>
+        <p class="lede reveal" data-delay="1">This is the practice’s core intellectual product: a mapping from data already generated for NEMA compliance to the disclosure a lender, buyer, or parent is asking for.</p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="wrap" style="max-width:900px;">
+        <div class="reveal">
+          <p>Most Kenyan manufacturers treat NEMA compliance and ESG reporting as two separate burdens. Compliance is handled by the environmental officer; ESG questionnaires land on finance. The two are managed as unrelated workstreams, often by different people, from the same underlying measurements.</p>
+          <p>The bridge takes the artefacts NEMA compliance already produces and reorganises them for ESG disclosure. It is not a repackaging exercise. It reveals where NEMA data is sufficient for ESG purposes and where it is not - and the gaps are usually three: boundary, consistency, and restatement.</p>
+        </div>
+
+        <h2 style="margin-top:2.4em;" class="reveal">The mapping, row by row</h2>
+        <p class="reveal" data-delay="1" style="font-size:.95rem;color:var(--muted);">Each row shows a NEMA artefact flowing into its ESG application. Click a row to reveal the gap that must be closed. Use the play button to run the full sequence.</p>
+
+        <div class="mapping-toolbar reveal" data-delay="2">
+          <span class="hint">Five artefacts → five disclosure applications</span>
+          <button type="button" class="replay-btn" id="run-all-rows">
+            <span class="glyph" aria-hidden="true">▶</span> Run all rows
+          </button>
+        </div>
+
+        <div class="mapping-list" id="mapping-list">
+          ${mappingRows.map((r, i) => `
+            <div class="map-row" data-row-id="${r.id}" style="--row-i:${i};">
+              <div class="map-row-head">
+                <div class="map-arte">
+                  <span class="map-tag">NEMA artefact</span>
+                  <span class="map-title">${r.artefact}</span>
+                  <span class="map-sub">${r.artefactSub}</span>
+                </div>
+                <div class="map-flow" aria-hidden="true">
+                  <svg viewBox="0 0 60 60" preserveAspectRatio="none">
+                    <path class="track" data-track="${r.id}" d="M 6 30 L 54 30"/>
+                    <circle class="flow-dot" data-dot="${r.id}" cx="6" cy="30" r="3.5" fill="#14b8a6"/>
+                    <g class="flow-tick" data-tick="${r.id}">
+                      <circle cx="42" cy="30" r="7" fill="#14b8a6"/>
+                      <path d="M 39 30 L 41 32 L 45 28" fill="none" stroke="#fff" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+                    </g>
+                  </svg>
+                </div>
+                <div class="map-esg">
+                  <span class="map-tag">ESG application</span>
+                  <span class="map-title">${r.esg}</span>
+                  <span class="map-sub">${r.esgSub}</span>
+                </div>
+              </div>
+              <button class="map-toggle" type="button" aria-expanded="false" aria-controls="gap-${r.id}">
+                <span class="label">Gap to close</span>
+                <span class="chev" aria-hidden="true">▾</span>
+              </button>
+              <div class="map-gap" id="gap-${r.id}">
+                <div class="map-gap-label">Gap to close</div>
+                <p>${r.gap}</p>
+              </div>
+            </div>
+          `).join('')}
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="wrap reveal" style="max-width:860px;">
+        <h2>Worked example: effluent monitoring into GRI 303</h2>
+        <p>A food processor monitors effluent monthly against its NEMA permit conditions. The monitoring record contains discharge volume and concentrations of key parameters. To become a GRI 303 water disclosure, three things must be added:</p>
+        <p><strong>Boundary.</strong> The permit covers the licensed facility. The disclosure must state whether the boundary includes only this facility, or others in the group. A boundary statement is not optional.</p>
+        <p><strong>Consistency.</strong> Monthly permit monitoring may not be structured for comparability. The data must be moved into a workbook where trends, variances, and intensity metrics (per unit of output) are visible across the reporting period.</p>
+        <p><strong>Restatement.</strong> If the boundary or the calculation method changes between cycles, prior figures must be restated and the reason disclosed. This is the first question a lender’s technical reviewer will ask.</p>
+        <div class="callout"><p>The client pays once for the monitoring. The translation is the value-add - and it is what allows one engagement to produce a NEMA-compliant output and an ESG-usable dataset.</p></div>
+      </div>
+    </section>
+
+    <section class="globe-section">
+      <div class="wrap globe-grid">
+        <div class="reveal">
+          <span class="eyebrow">Where the work happens</span>
+          <h2>Delivery across Kenya and the EAC.</h2>
+          <p>Manufacturing and industrial clients across Nairobi, the Athi River corridor, Kiambu, Thika, Nakuru, Mombasa, and two East African capitals. The methodology is the same; the regulatory interface differs by jurisdiction.</p>
+          <ul class="globe-legend">
+            ${deliverySites.map(s => `
+              <li><span class="dot"></span><span class="name">${s.name}</span><span class="count">${s.count}</span></li>
+            `).join('')}
+          </ul>
+        </div>
+        <div class="globe-wrap reveal" data-delay="2">
+          <canvas id="globe-canvas" aria-label="Rotating globe showing delivery locations in East Africa" role="img"></canvas>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap reveal" style="max-width:860px;">
+        <h2>Why this matters to lenders and buyers</h2>
+        <p>An ESG advisor can build a reporting template. Fewer can look at a reported Scope 1 figure and ask whether the measurement methodology and boundary definition are defensible. The founder’s professional registration was earned through environmental assessment and audit work, not through a reporting course. When the practice supports a client’s ESG disclosure, it is verifying the technical substance, not polishing the narrative.</p>
+      </div>
+    </section>
+    ${ctaBand()}
+  `,
+
+  '/sectors': () => `
+    <section class="service-hero">
+      <div class="wrap">
+        <div class="breadcrumb"><a href="#/">Home</a> / Sectors</div>
+        <span class="eyebrow">Sectors</span>
+        <h1 class="reveal">Two audiences, one sector.</h1>
+        <p class="lede reveal" data-delay="1">The practice serves manufacturers and the institutions that finance or buy from them. The work is the same; the questions are different.</p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="wrap">
+        <div class="grid-2">
+          <a href="#/sectors/manufacturing" class="card reveal" data-delay="1">
+            <span class="tag">For manufacturers</span>
+            <h3>Manufacturing &amp; industrial</h3>
+            <p>Plant managers, EHS officers, and CFOs facing NEMA obligations and buyer or lender ESG pressure.</p>
+            <span class="btn-ghost">Explore →</span>
+          </a>
+          <a href="#/sectors/dfi-lenders" class="card reveal" data-delay="2">
+            <span class="tag">For financiers</span>
+            <h3>DFIs, lenders &amp; investors</h3>
+            <p>Institutions commissioning independent E&amp;S opinions and technical verification of sponsor claims.</p>
+            <span class="btn-ghost">Explore →</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    ${ctaBand()}
+  `,
+
+  '/sectors/manufacturing': () => `
+    <section class="service-hero">
+      <div class="wrap">
+        <div class="breadcrumb"><a href="#/">Home</a> / <a href="#/sectors">Sectors</a> / Manufacturing</div>
+        <span class="eyebrow">For manufacturers</span>
+        <h1 class="reveal">Compliance today. Disclosure tomorrow. One dataset.</h1>
+        <p class="lede reveal" data-delay="1">Industrial clients face effluent limits and hazardous waste controls, then a buyer questionnaire and a lender covenant. The data underneath is the same.</p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="wrap reveal" style="max-width:860px;">
+        <h2>What manufacturers face</h2>
+        <p>Effluent and emissions limits under NEMA permits. Hazardous waste tracking and disposal controls. Licence renewals and audit notices. Then, increasingly: ESG questionnaires from buyers, ESG covenants from lenders, and disclosure requests from a corporate parent.</p>
+        <p>Each of these arrives in a different department with a different deadline. Handled separately, they cost more than they should and produce inconsistent numbers.</p>
+        <h2>Where to start</h2>
+        <p>If you have a NEMA obligation due in the next six months, start there - compliance is non-negotiable and the audit or EIA will generate the data the ESG work needs. If a buyer or lender has set a deadline, start with the readiness sprint and work back to the data.</p>
+        <div class="callout"><p>If both are live at once - which is common - the audit can be structured so its findings table is simultaneously a populated ESG dataset. That is the bridge in practice.</p></div>
+        <h2>Relevant services</h2>
+        <ul>
+          <li><a href="#/services/nema-compliance">NEMA Compliance &amp; Licensing</a> - EIA, ESMP, licence applications</li>
+          <li><a href="#/services/environmental-audit">Environmental Audit</a> - EMCA audit with corrective action plan</li>
+          <li><a href="#/services/esg-readiness">ESG Readiness &amp; Disclosure</a> - materiality, gap review, roadmap</li>
+          <li><a href="#/services/climate-risk">Climate &amp; Industrial Risk</a> - physical climate and Natech exposure</li>
+        </ul>
+      </div>
+    </section>
+    ${ctaBand()}
+  `,
+
+  '/sectors/dfi-lenders': () => `
+    <section class="service-hero">
+      <div class="wrap">
+        <div class="breadcrumb"><a href="#/">Home</a> / <a href="#/sectors">Sectors</a> / DFIs, Lenders &amp; Investors</div>
+        <span class="eyebrow">For financiers</span>
+        <h1 class="reveal">An independent E&amp;S opinion that holds up in committee.</h1>
+        <p class="lede reveal" data-delay="1">IFC Performance Standards screening, risk categorisation, and technical verification of sponsor claims for industrial transactions.</p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="wrap reveal" style="max-width:860px;">
+        <h2>What the practice provides</h2>
+        <p>A short, plain-language memorandum on the E&amp;S risk of an industrial asset, screened against IFC Performance Standards 1–8, with an indicative risk category and specific, monitorable ESAP conditions.</p>
+        <p>Where a sponsor has provided ESG data, the practice can verify whether the figures are defensible - tracing each reported number to a source measurement and testing the boundary and restatement assumptions.</p>
+        <h2>What makes the opinion different</h2>
+        <p>The founder is a NEMA-registered Associate Expert. The E&amp;S opinion is grounded in having conducted the underlying assessment and audit work in Kenya, not in applying a framework from a distance. This matters most where local regulation and international standards diverge.</p>
+        <h2>Relevant services</h2>
+        <ul>
+          <li><a href="#/services/due-diligence">E&amp;S Due Diligence</a> - IFC PS screening, risk category, ESAP</li>
+          <li><a href="#/services/technical-verification">Technical Verification for ESG</a> - data lineage and methodology review</li>
+          <li><a href="#/services/climate-risk">Climate &amp; Industrial Risk</a> - physical climate and Natech exposure</li>
+        </ul>
+      </div>
+    </section>
+    ${ctaBand()}
+  `,
+
+  '/work': () => `
+    <section class="service-hero">
+      <div class="wrap">
+        <div class="breadcrumb"><a href="#/">Home</a> / Work</div>
+        <span class="eyebrow">Selected work</span>
+        <h1 class="reveal">Anonymised cases, real outcomes.</h1>
+        <p class="lede reveal" data-delay="1">Client identities are withheld under confidentiality. Sector, scope, and outcome are accurate. References are available under NDA.</p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="wrap"><div class="grid-3">${work.map(workCard).join('')}</div></div>
+    </section>
+    ${ctaBand()}
+  `,
+
+  '/about': () => `
+    <section class="service-hero">
+      <div class="wrap">
+        <div class="breadcrumb"><a href="#/">Home</a> / About</div>
+        <span class="eyebrow">About</span>
+        <h1 class="reveal">Built around one observation.</h1>
+      </div>
+    </section>
+    <section class="section">
+      <div class="wrap about-grid">
+        <div class="reveal">
+          <p class="lede">OIEEA was founded by Otieno Irene, a NEMA-registered Associate Expert who spent six years inside Kenyan environmental consultancy before going independent.</p>
+          <p>She built the practice around a specific observation: many Kenyan manufacturers treat NEMA compliance and ESG reporting as two separate, disconnected burdens. NEMA licensing is handled by environmental officers. ESG questionnaires from lenders, buyers, and headquarters land on finance or sustainability teams who do not speak the technical language of emissions, effluent, or hazardous waste.</p>
+          <p>OIEEA sits in that gap. We translate between the two - because we have done both.</p>
+          <h2>What we are not</h2>
+          <p>We are not a full-service engineering firm. We do not offer ISO certification. We do not provide legal advice. Where a client needs those services, we coordinate with established partners and stay in our lane.</p>
+          <h2>The differentiator</h2>
+          <p>Most ESG advisors can build a reporting template. Fewer can look at a reported Scope 1 figure and ask whether the measurement methodology and boundary definition are defensible. OIEEA can, because the founder’s professional registration was earned through environmental assessment and audit work, not through a reporting course.</p>
+          <p>When we support a client’s ESG disclosure, we are verifying the technical substance, not polishing the narrative.</p>
+          <div class="btn-row">
+            <a href="#/about/credentials" class="btn btn-outline">View credentials</a>
+            <a href="#/about/transparency" class="btn btn-outline">Transparency note</a>
+          </div>
+        </div>
+        <aside class="about-aside reveal" data-delay="2">
+          <div class="photo">
+            <img src="profile.jpeg" alt="Professional Photo">
+          </div>
+          <h3>Otieno Irene</h3>
+          <p class="role">Founder</p>
+          <p style="font-size:.88rem;color:var(--muted);">Six years in Kenyan environmental consultancy. Manufacturing and Industrial sectors focus.</p>
+        </aside>
+      </div>
+    </section>
+    ${ctaBand()}
+  `,
+
+  '/about/credentials': () => {
+    const rows = [
+      ['Environmental assessment','EMCA 1999; EIA/EA Regulations 2003','Proficient (registered)','Samples 1, 2'],
+      ['Environmental audit','EMCA audit requirements','Proficient (registered)','Sample 1'],
+      ['Sustainability reporting','GRI Standards','Working','Samples 4, 5'],
+      ['Sustainability reporting','IFRS S1 / S2 (ISSB)','Working','Samples 4, 7'],
+      ['Climate disclosure','TCFD','Working','Sample 7'],
+      ['E&S due diligence','IFC Performance Standards 1–8','Proficient','Sample 6'],
+      ['Emissions accounting','GHG Protocol (Scope 1/2 concepts)','Foundational','Sample 5'],
+      ['Environmental management','ISO 14001 principles','Working','Samples 1, 2'],
+      ['Process safety interface','HAZOP output interpretation','Working','Sample 3'],
+      ['Climate and Natech risk','Multi-hazard assessment; NaTech scenarios','Proficient','Samples 3, 7'],
+      ['GIS','QGIS, ArcGIS Pro','Working','Samples 2, 3, 7'],
+      ['Air dispersion','AERMOD (screening)','Basic','Sample 2']
+    ];
+    return `
+    <section class="service-hero">
+      <div class="wrap">
+        <div class="breadcrumb"><a href="#/">Home</a> / <a href="#/about">About</a> / Credentials</div>
+        <span class="eyebrow">Credentials</span>
+        <h1 class="reveal">Capability, with evidence behind each line.</h1>
+        <p class="lede reveal" data-delay="1">Every depth level below has a sample behind it. Nothing is claimed without evidence.</p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="wrap">
+        <div class="table-wrap reveal">
+          <table class="data">
+            <thead><tr><th>Area</th><th>Framework / standard</th><th>Depth</th><th>Evidence</th></tr></thead>
+            <tbody>${rows.map(r => `<tr><td>${r[0]}</td><td>${r[1]}</td><td>${r[2]}</td><td>${r[3]}</td></tr>`).join('')}</tbody>
+          </table>
+        </div>
+        <div class="callout reveal" data-delay="1" style="margin-top:32px;">
+          <p><strong>Reading the levels.</strong> <em>Proficient</em> means independent performance with defensible output. <em>Working</em> means performance with review. <em>Foundational</em> or <em>Basic</em> means conceptual command and screening-level application. No level is claimed without a sample behind it.</p>
+        </div>
+      </div>
+    </section>
+    ${ctaBand()}`;
+  },
+
+  '/about/transparency': () => `
+    <section class="service-hero">
+      <div class="wrap">
+        <div class="breadcrumb"><a href="#/">Home</a> / <a href="#/about">About</a> / Transparency</div>
+        <span class="eyebrow">Transparency</span>
+        <h1 class="reveal">What we do not do - and why we say so.</h1>
+        <p class="lede reveal" data-delay="1">OIEEA is a young practice. Stating the trajectory openly builds more trust than concealing it, and prevents the practice from being oversold into work it should not take.</p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="wrap reveal" style="max-width:820px;">
+        <h2>Currently building</h2>
+        <p><strong>IFRS S1/S2 disclosure capability.</strong> Currently at working level; targeting proficient by [Year] through ICPAK-aligned training and applied client work.</p>
+        <p><strong>Power BI dashboards for client ESG data.</strong> Currently Excel-based; migration planned [Year].</p>
+        <p><strong>A second associate expert</strong> to expand audit capacity.</p>
+        <h2>Not currently offered - and will not be claimed until credentialed</h2>
+        <p><strong>ISO 14001 certification audits.</strong> The practice can prepare clients for certification; it does not provide the certification audit.</p>
+        <p><strong>Accredited ESG assurance.</strong> The practice can prepare clients for assurance and verify data defensibility; it does not provide the assurance opinion.</p>
+        <p><strong>Legal compliance opinions.</strong> Regulatory interpretation beyond EMCA practice is referred to counsel.</p>
+        <div class="callout"><p>Clients and partners are entitled to know where the practice is strong and where it is developing. This page exists to make that visible.</p></div>
+      </div>
+    </section>
+    ${ctaBand()}
+  `,
+
+  '/insights': () => `
+    <section class="service-hero">
+      <div class="wrap">
+        <div class="breadcrumb"><a href="#/">Home</a> / Insights</div>
+        <span class="eyebrow">Insights</span>
+        <h1 class="reveal">Notes from the practice.</h1>
+        <p class="lede reveal" data-delay="1">Methodology notes and observations from Kenyan industrial environmental work. Published quarterly, not weekly.</p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="wrap">
+        <div class="grid-3">
+          ${insights.map((a,i) => `
+            <a href="#/insights/${a.slug}" class="card reveal" data-delay="${i+1}">
+              <span class="tag">${a.tag} · ${a.date}</span>
+              <h3>${a.title}</h3>
+              <p>${a.excerpt}</p>
+              <span class="btn-ghost">Read →</span>
+            </a>`).join('')}
+          <a href="#/insights/nema-to-esg-guide" class="card reveal" data-delay="1">
+            <span class="tag">Guide</span>
+            <h3>The NEMA-to-ESG guide</h3>
+            <p>A downloadable PDF version of the bridge methodology, for CFOs and sustainability leads.</p>
+            <span class="btn-ghost">Download →</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    ${ctaBand()}
+  `,
+
+  '/insights/nema-to-esg-guide': () => `
+    <section class="service-hero">
+      <div class="wrap">
+        <div class="breadcrumb"><a href="#/">Home</a> / <a href="#/insights">Insights</a> / Guide</div>
+        <span class="eyebrow">Guide</span>
+        <h1 class="reveal">The NEMA-to-ESG guide.</h1>
+        <p class="lede reveal" data-delay="1">A practical PDF for CFOs and sustainability leads: how to turn existing compliance data into a disclosure that holds up to a lender’s technical reviewer.</p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="wrap" style="max-width:760px;">
+        <div class="gate reveal" id="guide-gate">
+          <h3>Download the guide</h3>
+          <p>Enter your email and we will send the PDF. We will not add you to a marketing list without asking.</p>
+          <form class="gate-form" id="gate-form" novalidate>
+            <input type="email" id="gate-email" placeholder="you@company.com" required aria-label="Email address">
+            <button type="submit" class="btn btn-primary">Get the PDF</button>
+          </form>
+          <div class="download">
+            <a class="btn btn-primary" href="#" download>Download the PDF</a>
+          </div>
+        </div>
+        <h2 class="reveal">What is inside</h2>
+        <ul class="reveal" data-delay="1">
+          <li>The five NEMA/EIA artefacts that map to ESG disclosures</li>
+          <li>The three gaps most first-cycle disclosures fail to close: boundary, consistency, restatement</li>
+          <li>A worked example: monthly effluent monitoring into GRI 303</li>
+          <li>A one-page checklist to run before sending a disclosure to a buyer or lender</li>
+        </ul>
+      </div>
+    </section>
+    ${ctaBand()}
+  `,
+
+  '/contact': () => `
+    <section class="service-hero">
+      <div class="wrap">
+        <div class="breadcrumb"><a href="#/">Home</a> / Contact</div>
+        <span class="eyebrow">Contact</span>
+        <h1 class="reveal">Start with a scoping call.</h1>
+        <p class="lede reveal" data-delay="1">Tell us what triggered the need. Enquiries are answered within two working days.</p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="wrap contact-grid">
+        <div class="reveal">
+          <form id="contact-form" novalidate>
+            <div class="form-field">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required>
+              <span class="error">Please enter your name.</span>
+            </div>
+            <div class="form-field">
+              <label for="org">Organisation</label>
+              <input type="text" id="org" name="org" required>
+              <span class="error">Please enter your organisation.</span>
+            </div>
+            <div class="form-field">
+              <label for="role">Role</label>
+              <input type="text" id="role" name="role">
+            </div>
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+              <span class="error">Please enter a valid email address.</span>
+            </div>
+            <div class="form-field">
+              <label for="phone">Phone</label>
+              <input type="tel" id="phone" name="phone">
+            </div>
+            <div class="form-field">
+              <label for="need">What do you need?</label>
+              <select id="need" name="need" required>
+                <option value="">Select…</option>
+                <option>NEMA compliance</option>
+                <option>Environmental audit</option>
+                <option>ESG readiness</option>
+                <option>Technical verification</option>
+                <option>Due diligence</option>
+                <option>Climate risk</option>
+                <option>Other</option>
+              </select>
+              <span class="error">Please select a service.</span>
+            </div>
+            <div class="form-field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required></textarea>
+              <span class="error">Please tell us a little about your need.</span>
+            </div>
+            <div class="form-field consent">
+              <input type="checkbox" id="consent" name="consent" required>
+              <label for="consent" style="font-weight:400;margin:0;">I consent to OIEEA storing and using these details to respond to my enquiry, in line with the privacy notice.</label>
+            </div>
+            <div class="form-field">
+              <span class="error" id="consent-error">Please provide consent to continue.</span>
+            </div>
+            <button type="submit" class="btn btn-primary">Send enquiry</button>
+            <p class="form-note">Enquiries are answered within two working days.</p>
+          </form>
+        </div>
+        <aside class="reveal" data-delay="2">
+          <div class="info-block"><h4>Email</h4><p><a href="mailto:info@keeadvisory.co.ke">info@keeadvisory.co.ke</a></p></div>
+          <div class="info-block"><h4>Phone</h4><p><a href="tel:+254700000000">+254 700 000 000</a></p></div>
+          <div class="info-block"><h4>Location</h4><p>Nairobi, Kenya<br>Field work across Kenya and the EAC</p></div>
+          <div class="info-block"><h4>Registration</h4><p>NEMA Associate Expert (EIA/EA)<br>Reg. No. 13638</p></div>
+        </aside>
+      </div>
+    </section>
+  `,
+
+  '/contact/thank-you': () => `
+    <section class="section" style="min-height:60vh;display:grid;place-items:center;text-align:center;">
+      <div class="wrap" style="max-width:560px;">
+        <span class="eyebrow">Received</span>
+        <h1 class="reveal">Thank you.</h1>
+        <p class="lede reveal" data-delay="1" style="margin:0 auto 1.6em;">Your enquiry has been recorded. We will respond within two working days. If it is urgent, call <a href="tel:+254700000000">+254 700 000 000</a>.</p>
+        <div class="btn-row reveal" data-delay="2" style="justify-content:center;">
+          <a href="#/insights/nema-to-esg-guide" class="btn btn-primary">Download the NEMA-to-ESG guide</a>
+          <a href="#/" class="btn btn-outline">Back to home</a>
+        </div>
+      </div>
+    </section>
+  `,
+
+  '/privacy': () => legalPage('Privacy notice', `
+    <p>This notice explains how Otieno Irene Environmental &amp; ESG Advisory (OIEEA) collects and uses personal data, in line with the Kenya Data Protection Act 2019.</p>
+    <h2>What we collect</h2>
+    <p>When you submit the contact form, we collect your name, organisation, role, email, phone, the service you selected, and your message. When you download the guide, we collect your email address.</p>
+    <h2>Why we collect it</h2>
+    <p>To respond to your enquiry, to send the guide you requested, and to keep a record of the enquiry for our own records. We do not sell your data and we do not add you to a marketing list without your consent.</p>
+    <h2>How long we keep it</h2>
+    <p>Enquiry records are kept for [X years] unless a client relationship is established, in which case records are kept for the period required by professional practice.</p>
+    <h2>Your rights</h2>
+    <p>You can request access to, correction of, or deletion of your data by emailing <a href="mailto:info@keeadvisory.co.ke">info@keeadvisory.co.ke</a>.</p>
+    <p class="form-note">[Placeholder - have this reviewed before launch.]</p>
+  `),
+
+  '/terms': () => legalPage('Terms of use', `
+    <p>This website is operated by Otieno Irene Environmental &amp; ESG Advisory (OIEEA). By using it you agree to these terms.</p>
+    <h2>Content</h2>
+    <p>The content of this website is general information and does not constitute professional advice. Engagement terms are agreed in writing for each assignment.</p>
+    <h2>Confidentiality</h2>
+    <p>Case studies are anonymised. Client identities are disclosed only with permission or under NDA.</p>
+    <h2>Liability</h2>
+    <p>OIEEA accepts no liability for decisions made on the basis of general website content. [Placeholder - have this reviewed before launch.]</p>
+  `),
+
+  '/404': () => `
+    <section class="section" style="min-height:60vh;display:grid;place-items:center;text-align:center;">
+      <div class="wrap" style="max-width:520px;">
+        <span class="eyebrow">Not found</span>
+        <h1 class="reveal">That page does not exist.</h1>
+        <p class="lede reveal" data-delay="1" style="margin:0 auto 1.6em;">The link may be out of date. Try the services overview or the home page.</p>
+        <div class="btn-row reveal" data-delay="2" style="justify-content:center;">
+          <a href="#/" class="btn btn-primary">Home</a>
+          <a href="#/services" class="btn btn-outline">Services</a>
+        </div>
+      </div>
+    </section>
+  `
+};
+
+function legalPage(title, body) {
+  return `
+    <section class="service-hero">
+      <div class="wrap">
+        <div class="breadcrumb"><a href="#/">Home</a> / ${title}</div>
+        <span class="eyebrow">Legal</span>
+        <h1 class="reveal">${title}</h1>
+      </div>
+    </section>
+    <section class="section">
+      <div class="wrap reveal" style="max-width:760px;">${body}</div>
+    </section>
+  `;
+}
+
+function servicePage(s) {
+  return `
+    <section class="service-hero">
+      <div class="wrap">
+        <div class="breadcrumb"><a href="#/">Home</a> / <a href="#/services">Services</a> / ${s.title}</div>
+        <span class="eyebrow">${s.tag}</span>
+        <h1 class="reveal">${s.title}</h1>
+        <p class="lede reveal" data-delay="1">${s.short}</p>
+      </div>
+    </section>
+    <div class="wrap service-body">
+      <div class="reveal">
+        <h2>Who this is for</h2>
+        <p>${s.forWho}</p>
+        <h2>What the engagement involves</h2>
+        <ol class="phase-list">
+          ${s.phases.map(p => `<li><h4>${p[0]}</h4><p>${p[1]}</p></li>`).join('')}
+        </ol>
+        <h2>Deliverables</h2>
+        <ul>${s.deliverables.map(d => `<li>${d}</li>`).join('')}</ul>
+        <h2>Regulatory and framework basis</h2>
+        <p>${s.framework}</p>
+        <h2>Related sample</h2>
+        <p>Work sample: ${s.sample}. Available on request under confidentiality.</p>
+      </div>
+      <aside class="sidebar reveal" data-delay="2">
+        <div class="side-box">
+          <h4>At a glance</h4>
+          <ul>
+            <li><strong>Service</strong><br>${s.title}</li>
+            <li><strong>Basis</strong><br>${s.framework}</li>
+            <li><strong>Sample</strong><br>${s.sample}</li>
+          </ul>
+        </div>
+        <div class="side-box">
+          <h4>Discuss this engagement</h4>
+          <p> and we will tell you what it takes.</p>
+          <a href="#/contact" class="btn btn-primary" style="width:100%;justify-content:center;">Request a review</a>
+        </div>
+      </aside>
+    </div>
+    ${ctaBand()}
+  `;
+}
+
+function workPage(w) {
+  return `
+    <section class="service-hero">
+      <div class="wrap">
+        <div class="breadcrumb"><a href="#/">Home</a> / <a href="#/work">Work</a> / ${w.sector}</div>
+        <span class="eyebrow">${w.sector} · ${w.location}</span>
+        <h1 class="reveal">${w.title}</h1>
+        <p class="lede reveal" data-delay="1">${w.short}</p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="wrap reveal" style="max-width:820px;">
+        <h2>The situation</h2>
+        <p>${w.situation}</p>
+        <h2>What we did</h2>
+        <ul>${w.did.map(d => `<li>${d}</li>`).join('')}</ul>
+        <h2>Deliverables</h2>
+        <ul>${w.deliverables.map(d => `<li>${d}</li>`).join('')}</ul>
+        <h2>Outcome</h2>
+        <p>${w.outcome}</p>
+        <p class="form-note">Client identity withheld; references available under NDA.</p>
+      </div>
+    </section>
+    ${ctaBand()}
+  `;
+}
+
+function articlePage(a) {
+  return `
+    <section class="service-hero">
+      <div class="wrap">
+        <div class="breadcrumb"><a href="#/">Home</a> / <a href="#/insights">Insights</a> / ${a.tag}</div>
+        <span class="eyebrow">${a.tag} · ${a.date}</span>
+        <h1 class="reveal">${a.title}</h1>
+      </div>
+    </section>
+    <section class="section">
+      <div class="wrap reveal" style="max-width:740px;">
+        ${articles[a.slug]}
+      </div>
+    </section>
+    ${ctaBand()}
+  `;
+}
+
+/* ---------- Router ---------- */
+function resolve(path) {
+  if (pages[path]) return pages[path];
+  if (path.startsWith('/services/')) {
+    const s = services.find(x => '/services/' + x.slug === path);
+    if (s) return () => servicePage(s);
+  }
+  if (path.startsWith('/work/')) {
+    const w = work.find(x => '/work/' + x.slug === path);
+    if (w) return () => workPage(w);
+  }
+  if (path.startsWith('/insights/')) {
+    const a = insights.find(x => '/insights/' + x.slug === path);
+    if (a) return () => articlePage(a);
+  }
+  return pages['/404'];
+}
+
+function currentPath() {
+  const h = location.hash.replace(/^#/, '');
+  return h === '' ? '/' : h;
+}
+
+function setActiveNav(path) {
+  document.querySelectorAll('.primary-nav a').forEach(a => {
+    const href = a.getAttribute('href') || '';
+    const target = href.replace(/^#/, '');
+    a.classList.toggle('active', target !== '/' && path.startsWith(target) && target !== '/contact');
+    if (target === '/' && path === '/') a.classList.add('active');
+    if (target === '/contact') a.classList.toggle('active', path === '/contact');
+  });
+}
+
+/* ============================================================
+   PAGE TRANSITIONS - directional
+   ============================================================
+   Forward = slide in from right, previous slides out left.
+   Back    = slide in from left, previous slides out right.
+   Depth is tracked as a simple numeric level derived from path.
+   ============================================================ */
+
+let isTransitioning = false;
+let pendingRender = false;
+let lastPath = '/';
+
+function pathDepth(p) {
+  if (p === '/') return 0;
+  // "/a/b/c" -> 3; "/a" -> 1
+  return p.split('/').filter(Boolean).length;
+}
+
+function renderImmediate(direction) {
+  const path = currentPath();
+  const fn = resolve(path);
+  app.innerHTML = fn();
+  setActiveNav(path);
+  nav.classList.remove('open');
+  navToggle.setAttribute('aria-expanded', 'false');
+  window.scrollTo({ top: 0, behavior: 'instant' in window ? 'instant' : 'auto' });
+  const titles = {
+    '/': 'OIEEA - NEMA Compliance & ESG Advisory, Nairobi',
+    '/approach': 'The NEMA-to-ESG bridge - OIEEA',
+    '/contact': 'Contact - OIEEA'
+  };
+  document.title = titles[path] || 'OIEEA';
+
+  // Clear any animation state
+  app.classList.remove(
+    'transition-in-left', 'transition-in-right',
+    'transition-out-left', 'transition-out-right'
+  );
+  void app.offsetWidth;
+  if (direction === 'forward') app.classList.add('transition-in-right');
+  else if (direction === 'back') app.classList.add('transition-in-left');
+
+  lastPath = path;
+  mountMotion();
+}
+
+function render() {
+  const path = currentPath();
+  if (path === lastPath && app.firstChild) {
+    // No actual navigation; ignore (e.g. hash change to same route)
+    return;
+  }
+
+  if (prefersReducedMotion) {
+    renderImmediate(null);
+    return;
+  }
+
+  if (isTransitioning) {
+    pendingRender = true;
+    return;
+  }
+
+  const prevDepth = pathDepth(lastPath);
+  const nextDepth = pathDepth(path);
+  const direction = nextDepth > prevDepth ? 'forward'
+                  : nextDepth < prevDepth ? 'back'
+                  : 'forward';
+
+  isTransitioning = true;
+  app.classList.remove('transition-in-left', 'transition-in-right');
+  void app.offsetWidth;
+  app.classList.add(direction === 'forward' ? 'transition-out-left' : 'transition-out-right');
+
+  setTimeout(() => {
+    renderImmediate(direction);
+    isTransitioning = false;
+    if (pendingRender) {
+      pendingRender = false;
+      requestAnimationFrame(() => render());
+    }
+  }, 220);
+}
+
+/* ============================================================
+   MOTION ENGINE
+   ============================================================ */
+
+/* ---------- 1. Scroll reveal ---------- */
+let revealObserver = null;
+function initReveals() {
+  if (prefersReducedMotion) {
+    document.querySelectorAll('.reveal').forEach(el => el.classList.add('in-view'));
+    return;
+  }
+  if (revealObserver) revealObserver.disconnect();
+  revealObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('in-view');
+        revealObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+
+  document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+}
+
+/* ---------- 2. Counters ---------- */
+function initCounters() {
+  const counters = document.querySelectorAll('.stat-num[data-count]');
+  if (!counters.length) return;
+
+  if (prefersReducedMotion) {
+    counters.forEach(el => {
+      el.textContent = el.dataset.count + (el.dataset.suffix || '');
+    });
+    return;
+  }
+
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (!entry.isIntersecting) return;
+      const el = entry.target;
+      const target = parseInt(el.dataset.count, 10);
+      const suffix = el.dataset.suffix || '';
+      const duration = 1600;
+      const start = performance.now();
+      const easeOut = t => 1 - Math.pow(1 - t, 3);
+
+      function tick(now) {
+        const elapsed = now - start;
+        const p = Math.min(elapsed / duration, 1);
+        const val = Math.round(target * easeOut(p));
+        el.textContent = val + suffix;
+        if (p < 1) requestAnimationFrame(tick);
+      }
+      requestAnimationFrame(tick);
+      io.unobserve(el);
+    });
+  }, { threshold: 0.5 });
+
+  counters.forEach(el => io.observe(el));
+}
+
+/* ---------- 3. Scroll progress ---------- */
+function initScrollProgress() {
+  const bar = document.getElementById('scroll-progress');
+  if (!bar) return;
+  const update = () => {
+    const h = document.documentElement;
+    const scrollTop = h.scrollTop || document.body.scrollTop;
+    const scrollHeight = h.scrollHeight - h.clientHeight;
+    const pct = scrollHeight > 0 ? (scrollTop / scrollHeight) * 100 : 0;
+    bar.style.width = pct + '%';
+  };
+  window.addEventListener('scroll', update, { passive: true });
+  update();
+}
+
+/* ---------- 4. Header hide-on-scroll ---------- */
+function initHeaderScroll() {
+  if (prefersReducedMotion) return;
+  const header = document.getElementById('site-header');
+  if (!header) return;
+  let lastY = window.scrollY;
+  let ticking = false;
+
+  window.addEventListener('scroll', () => {
+    if (ticking) return;
+    ticking = true;
+    requestAnimationFrame(() => {
+      const y = window.scrollY;
+      if (y > 160 && y > lastY + 4) header.style.transform = 'translateY(-100%)';
+      else if (y < lastY - 4 || y < 80) header.style.transform = 'translateY(0)';
+      lastY = y;
+      ticking = false;
+    });
+  }, { passive: true });
+}
+
+/* ============================================================
+   5. HERO PIPELINE
+   ============================================================ */
+let pipelineTimers = [];
+let pipelineRunning = false;
+
+function clearPipelineTimers() {
+  pipelineTimers.forEach(t => clearTimeout(t));
+  pipelineTimers = [];
+}
+
+function resetPipeline() {
+  clearPipelineTimers();
+  pipelineRunning = false;
+  ['mon','audit','stake'].forEach(k => {
+    const node = document.getElementById('node-' + k);
+    const path = document.getElementById('path-' + k);
+    const packet = document.getElementById('packet-' + k);
+    const tick = document.getElementById('tick-' + k);
+    if (node) node.classList.remove('active');
+    if (path) path.classList.remove('active');
+    if (packet) {
+      packet.classList.remove('on');
+      const origins = { mon: [110, 41], audit: [110, 115], stake: [110, 189] };
+      packet.setAttribute('cx', origins[k][0]);
+      packet.setAttribute('cy', origins[k][1]);
+    }
+    if (tick) tick.classList.remove('on');
+  });
+  const hub = document.getElementById('hub');
+  if (hub) hub.classList.remove('glow');
+}
+
+function animatePipeline() {
+  if (prefersReducedMotion) return;
+  if (pipelineRunning) return;
+  resetPipeline();
+  pipelineRunning = true;
+
+  const cfg = {
+    mon:   { node: 'node-mon',   path: 'path-mon',   packet: 'packet-mon',   tick: 'tick-mon' },
+    audit: { node: 'node-audit', path: 'path-audit', packet: 'packet-audit', tick: 'tick-audit' },
+    stake: { node: 'node-stake', path: 'path-stake', packet: 'packet-stake', tick: 'tick-stake' }
+  };
+
+  const schedule = (fn, delay) => pipelineTimers.push(setTimeout(fn, delay));
+
+  const sendPacket = (key, t0) => {
+    const c = cfg[key];
+    const nodeEl = document.getElementById(c.node);
+    const pathEl = document.getElementById(c.path);
+    const packetEl = document.getElementById(c.packet);
+    const tickEl = document.getElementById(c.tick);
+    if (!nodeEl || !pathEl || !packetEl || !tickEl) return;
+
+    schedule(() => nodeEl.classList.add('active'), t0);
+    schedule(() => pathEl.classList.add('active'), t0);
+
+    schedule(() => {
+      packetEl.classList.add('on');
+      const totalLen = pathEl.getTotalLength();
+      const duration = 620;
+      const start = performance.now();
+
+      function step(now) {
+        const p = Math.min((now - start) / duration, 1);
+        const eased = p < 0.5 ? 2 * p * p : 1 - Math.pow(-2 * p + 2, 2) / 2;
+        const pt = pathEl.getPointAtLength(totalLen * eased);
+        packetEl.setAttribute('cx', pt.x);
+        packetEl.setAttribute('cy', pt.y);
+        if (p < 1) {
+          requestAnimationFrame(step);
+        } else {
+          packetEl.classList.remove('on');
+          tickEl.classList.add('on');
+          setTimeout(() => {
+            nodeEl.classList.remove('active');
+            pathEl.classList.remove('active');
+          }, 260);
+        }
+      }
+      requestAnimationFrame(step);
+    }, t0);
+  };
+
+  sendPacket('mon',   100);
+  sendPacket('audit', 1100);
+  sendPacket('stake', 2100);
+
+  schedule(() => {
+    const hub = document.getElementById('hub');
+    if (hub) {
+      hub.classList.add('glow');
+      setTimeout(() => hub.classList.remove('glow'), 700);
+    }
+    pipelineRunning = false;
+  }, 2900);
+}
+
+function bindPipelineReplay() {
+  const btn = document.getElementById('replay-pipeline');
+  if (!btn) return;
+  btn.addEventListener('click', () => {
+    resetPipeline();
+    requestAnimationFrame(() => animatePipeline());
+  });
+}
+
+/* ============================================================
+   6. APPROACH - mapping rows
+   ============================================================ */
+let rowObserver = null;
+let rowTimers = [];
+
+function clearRowTimers() {
+  rowTimers.forEach(t => clearTimeout(t));
+  rowTimers = [];
+}
+
+function animateRow(rowEl, delay = 0) {
+  const id = rowEl.dataset.rowId;
+  const track = rowEl.querySelector(`[data-track="${id}"]`);
+  const dot = rowEl.querySelector(`[data-dot="${id}"]`);
+  const tick = rowEl.querySelector(`[data-tick="${id}"]`);
+  if (!track || !dot || !tick) return;
+
+  const schedule = (fn, ms) => rowTimers.push(setTimeout(fn, ms + delay));
+
+  schedule(() => track.classList.add('active'), 0);
+  schedule(() => {
+    dot.classList.add('on');
+    const pathLen = track.getTotalLength();
+    const dur = 700;
+    const start = performance.now();
+    function step(now) {
+      const p = Math.min((now - start) / dur, 1);
+      const eased = p < 0.5 ? 2 * p * p : 1 - Math.pow(-2 * p + 2, 2) / 2;
+      const pt = track.getPointAtLength(pathLen * eased);
+      dot.setAttribute('cx', pt.x);
+      dot.setAttribute('cy', pt.y);
+      if (p < 1) requestAnimationFrame(step);
+      else {
+        dot.classList.remove('on');
+        tick.classList.add('on');
+        setTimeout(() => track.classList.remove('active'), 260);
+      }
+    }
+    requestAnimationFrame(step);
+  }, 60);
+}
+
+function initMappingRows() {
+  const rows = document.querySelectorAll('.map-row');
+  if (!rows.length) return;
+
+  if (prefersReducedMotion) {
+    rows.forEach(r => {
+      r.classList.add('in-view');
+      r.classList.add('open');
+      const id = r.dataset.rowId;
+      const track = r.querySelector(`[data-track="${id}"]`);
+      const tick = r.querySelector(`[data-tick="${id}"]`);
+      const dot = r.querySelector(`[data-dot="${id}"]`);
+      if (track) track.classList.add('active');
+      if (tick) tick.classList.add('on');
+      if (dot) dot.classList.remove('on');
+      const btn = r.querySelector('.map-toggle');
+      if (btn) btn.setAttribute('aria-expanded', 'true');
+    });
+    return;
+  }
+
+  clearRowTimers();
+  rows.forEach(r => {
+    r.classList.remove('in-view');
+    const id = r.dataset.rowId;
+    const track = r.querySelector(`[data-track="${id}"]`);
+    const tick = r.querySelector(`[data-tick="${id}"]`);
+    const dot = r.querySelector(`[data-dot="${id}"]`);
+    if (track) track.classList.remove('active');
+    if (tick) tick.classList.remove('on');
+    if (dot) { dot.classList.remove('on'); dot.setAttribute('cx', 6); dot.setAttribute('cy', 30); }
+  });
+
+  if (rowObserver) rowObserver.disconnect();
+  rowObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (!entry.isIntersecting) return;
+      const row = entry.target;
+      row.classList.add('in-view');
+      const i = parseInt(getComputedStyle(row).getPropertyValue('--row-i') || '0', 10);
+      animateRow(row, i * 80);
+      rowObserver.unobserve(row);
+    });
+  }, { threshold: 0.4 });
+
+  rows.forEach(r => rowObserver.observe(r));
+
+  rows.forEach(row => {
+    const btn = row.querySelector('.map-toggle');
+    if (!btn) return;
+    btn.addEventListener('click', () => {
+      const open = row.classList.toggle('open');
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+  });
+
+  const runAll = document.getElementById('run-all-rows');
+  if (runAll) {
+    runAll.addEventListener('click', () => {
+      clearRowTimers();
+      rows.forEach((r, i) => {
+        const id = r.dataset.rowId;
+        const track = r.querySelector(`[data-track="${id}"]`);
+        const tick = r.querySelector(`[data-tick="${id}"]`);
+        const dot = r.querySelector(`[data-dot="${id}"]`);
+        if (track) track.classList.remove('active');
+        if (tick) tick.classList.remove('on');
+        if (dot) { dot.classList.remove('on'); dot.setAttribute('cx', 6); dot.setAttribute('cy', 30); }
+        animateRow(r, i * 180);
+      });
+    });
+  }
+}
+
+/* ============================================================
+   7. GLOBE - rotating 3D globe of East Africa
+   ============================================================
+   A lightweight orthographic projection canvas. Each frame
+   rotates a Y-axis angle, projects lat/lon to screen, hides
+   points on the far side, and draws a subtle sphere grid.
+   Pauses when off-screen or tab hidden. Respects reduced motion.
+   ============================================================ */
+
+let globeAnim = null;
+
+function initGlobe() {
+  const canvas = document.getElementById('globe-canvas');
+  if (!canvas) return;
+
+  const ctx = canvas.getContext('2d');
+  let raf = null;
+  let running = true;
+  let W = 0, H = 0, DPR = 1, R = 0;
+
+  let rotation = -1.2;             // radians, rotates continuously
+  const rotationSpeed = 0.0022;    // per frame
+  const TILT = -0.18;              // slight tilt so equator sits a bit high
+  const FOCUS_LON = 36.82;         // Nairobi - centre the view here
+  const FOCUS_LAT = -1.29;
+
+  function resize() {
+    DPR = Math.min(window.devicePixelRatio || 1, 2);
+    const rect = canvas.getBoundingClientRect();
+    W = rect.width; H = rect.height;
+    canvas.width = W * DPR;
+    canvas.height = H * DPR;
+    ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
+    R = Math.min(W, H) * 0.44;
+  }
+
+  function project(lat, lon, rot) {
+    const phi = (90 - lat) * Math.PI / 180;
+    const theta = (lon - rot) * Math.PI / 180;
+
+    const x0 = Math.sin(phi) * Math.cos(theta);
+    const y0 = Math.cos(phi);
+    const z0 = Math.sin(phi) * Math.sin(theta);
+
+    // Apply tilt around X axis
+    const cosT = Math.cos(TILT), sinT = Math.sin(TILT);
+    const y1 = y0 * cosT - z0 * sinT;
+    const z1 = y0 * sinT + z0 * cosT;
+
+    return {
+      x: W / 2 + x0 * R,
+      y: H / 2 - y1 * R,
+      z: z1,
+      visible: z1 > -0.05
+    };
+  }
+
+  function drawSphere() {
+    // Base sphere gradient
+    const g = ctx.createRadialGradient(
+      W / 2 - R * 0.3, H / 2 - R * 0.3, R * 0.1,
+      W / 2, H / 2, R
+    );
+    g.addColorStop(0, 'rgba(20,184,166,0.18)');
+    g.addColorStop(0.55, 'rgba(15,118,110,0.10)');
+    g.addColorStop(1, 'rgba(14,42,71,0.35)');
+    ctx.beginPath();
+    ctx.arc(W / 2, H / 2, R, 0, Math.PI * 2);
+    ctx.fillStyle = g;
+    ctx.fill();
+
+    // Rim
+    ctx.beginPath();
+    ctx.arc(W / 2, H / 2, R, 0, Math.PI * 2);
+    ctx.strokeStyle = 'rgba(20,184,166,0.35)';
+    ctx.lineWidth = 1;
+    ctx.stroke();
+
+    // Graticule: latitude lines
+    ctx.strokeStyle = 'rgba(185,200,216,0.13)';
+    ctx.lineWidth = 0.7;
+    for (let lat = -60; lat <= 60; lat += 30) {
+      ctx.beginPath();
+      let started = false;
+      for (let lon = -180; lon <= 180; lon += 4) {
+        const p = project(lat, lon, rotation);
+        if (!p.visible) { started = false; continue; }
+        if (!started) { ctx.moveTo(p.x, p.y); started = true; }
+        else ctx.lineTo(p.x, p.y);
+      }
+      ctx.stroke();
+    }
+
+    // Graticule: longitude lines
+    for (let lon = -180; lon < 180; lon += 30) {
+      ctx.beginPath();
+      let started = false;
+      for (let lat = -90; lat <= 90; lat += 4) {
+        const p = project(lat, lon, rotation);
+        if (!p.visible) { started = false; continue; }
+        if (!started) { ctx.moveTo(p.x, p.y); started = true; }
+        else ctx.lineTo(p.x, p.y);
+      }
+      ctx.stroke();
+    }
+  }
+
+  function drawSites() {
+    // First, connections from Nairobi to each other site
+    const nairobi = deliverySites[0];
+    const nProj = project(nairobi.lat, nairobi.lon, rotation);
+
+    if (nProj.visible) {
+      deliverySites.slice(1).forEach(site => {
+        const p = project(site.lat, site.lon, rotation);
+        if (!p.visible) return;
+        // Curved connector via midpoint arc
+        const mx = (nProj.x + p.x) / 2;
+        const my = (nProj.y + p.y) / 2;
+        const dx = p.x - nProj.x, dy = p.y - nProj.y;
+        const len = Math.sqrt(dx * dx + dy * dy);
+        const nx = -dy / len, ny = dx / len;
+        const lift = Math.min(len * 0.28, 40);
+        const cxp = mx + nx * lift;
+        const cyp = my + ny * lift;
+
+        ctx.beginPath();
+        ctx.moveTo(nProj.x, nProj.y);
+        ctx.quadraticCurveTo(cxp, cyp, p.x, p.y);
+        ctx.strokeStyle = 'rgba(20,184,166,0.20)';
+        ctx.lineWidth = 0.9;
+        ctx.stroke();
+      });
+    }
+
+    // Then site dots
+    deliverySites.forEach(site => {
+      const p = project(site.lat, site.lon, rotation);
+      if (!p.visible) return;
+      const scale = 1 + (site.count / 12) * 1.4;
+      const alpha = 0.55 + (p.z + 1) * 0.25;
+
+      // Soft halo
+      ctx.beginPath();
+      ctx.arc(p.x, p.y, 3.2 * scale + 3, 0, Math.PI * 2);
+      ctx.fillStyle = `rgba(20,184,166,${0.10 * alpha})`;
+      ctx.fill();
+
+      // Dot
+      ctx.beginPath();
+      ctx.arc(p.x, p.y, 3.2 * scale, 0, Math.PI * 2);
+      ctx.fillStyle = `rgba(20,184,166,${0.9 * alpha})`;
+      ctx.fill();
+      ctx.strokeStyle = `rgba(255,255,255,${0.55 * alpha})`;
+      ctx.lineWidth = 0.6;
+      ctx.stroke();
+    });
+  }
+
+  function frame() {
+    if (!running) return;
+    ctx.clearRect(0, 0, W, H);
+    drawSphere();
+    drawSites();
+    rotation += rotationSpeed;
+    raf = requestAnimationFrame(frame);
+  }
+
+  function start() {
+    if (raf) return;
+    running = true;
+    raf = requestAnimationFrame(frame);
+  }
+  function stop() {
+    running = false;
+    if (raf) cancelAnimationFrame(raf);
+    raf = null;
+  }
+
+  resize();
+
+  if (prefersReducedMotion) {
+    // Render a single static frame
+    drawSphere();
+    drawSites();
+  } else {
+    start();
+  }
+
+  const ro = new ResizeObserver(() => { resize(); });
+  ro.observe(canvas);
+
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (prefersReducedMotion) return;
+      if (e.isIntersecting) start();
+      else stop();
+    });
+  }, { threshold: 0.1 });
+  io.observe(canvas);
+
+  document.addEventListener('visibilitychange', () => {
+    if (prefersReducedMotion) return;
+    if (document.hidden) stop();
+    else if (canvas.getBoundingClientRect().top < window.innerHeight) start();
+  });
+
+  globeAnim = { stop, ro, io };
+}
+
+function teardownGlobe() {
+  if (globeAnim) {
+    globeAnim.stop();
+    try { globeAnim.ro.disconnect(); } catch (_) {}
+    try { globeAnim.io.disconnect(); } catch (_) {}
+    globeAnim = null;
+  }
+}
+
+/* ============================================================
+   8. Mount motion per page
+   ============================================================ */
+function mountMotion() {
+  initReveals();
+  initCounters();
+  clearPipelineTimers();
+  clearRowTimers();
+  teardownGlobe();
+
+  if (currentPath() === '/') {
+    resetPipeline();
+    setTimeout(animatePipeline, prefersReducedMotion ? 0 : 120);
+    bindPipelineReplay();
+  }
+
+  if (currentPath() === '/approach') {
+    initMappingRows();
+    initGlobe();
+  }
+
+  try {
+    if (localStorage.getItem('keea_guide_unlocked')) {
+      const gate = document.getElementById('guide-gate');
+      if (gate) gate.classList.add('unlocked');
+    }
+  } catch (_) {}
+}
+
+/* ---------- Mobile nav ---------- */
+navToggle.addEventListener('click', () => {
+  const open = nav.classList.toggle('open');
+  navToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+  navToggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+});
+
+/* ---------- Toast ---------- */
+function toast(msg) {
+  const el = document.createElement('div');
+  el.className = 'toast';
+  el.textContent = msg;
+  document.body.appendChild(el);
+  requestAnimationFrame(() => el.classList.add('show'));
+  setTimeout(() => {
+    el.classList.remove('show');
+    setTimeout(() => el.remove(), 400);
+  }, 2600);
+}
+
+/* ---------- Forms ---------- */
+document.addEventListener('submit', async (e) => {
+  if (e.target.id === 'gate-form') {
+    e.preventDefault();
+    const email = document.getElementById('gate-email');
+    if (!email.value || !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email.value)) {
+      toast('Please enter a valid email address.');
+      return;
+    }
+    try { localStorage.setItem('keea_guide_unlocked', email.value); } catch (_) {}
+    const gate = document.getElementById('guide-gate');
+    gate.classList.add('unlocked');
+    toast('Thank you - the download is now available.');
+    return;
+  }
+
+  if (e.target.id === 'contact-form') {
+    e.preventDefault();
+    const form = e.target;
+    let ok = true;
+    const validate = (id, test) => {
+      const field = document.getElementById(id);
+      const wrap = field.closest('.form-field');
+      const valid = test(field.value);
+      wrap.classList.toggle('invalid', !valid);
+      if (!valid) ok = false;
+      return valid;
+    };
+    validate('name', v => v.trim().length > 1);
+    validate('org', v => v.trim().length > 1);
+    validate('email', v => /^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(v));
+    validate('need', v => v !== '');
+    validate('message', v => v.trim().length > 9);
+
+    const consent = document.getElementById('consent');
+    const consentErr = document.getElementById('consent-error');
+    if (!consent.checked) { consentErr.style.display = 'block'; ok = false; }
+    else consentErr.style.display = 'none';
+
+    if (!ok) {
+      const firstInvalid = form.querySelector('.form-field.invalid input, .form-field.invalid select, .form-field.invalid textarea');
+      if (firstInvalid) firstInvalid.focus();
+      return;
+    }
+
+    location.hash = '#/contact/thank-you';
+  }
+});
+
+/* ---------- Init ---------- */
+document.getElementById('year').textContent = new Date().getFullYear();
+initScrollProgress();
+initHeaderScroll();
+window.addEventListener('hashchange', render);
+render();
+</script>
+</body>
+</html>
